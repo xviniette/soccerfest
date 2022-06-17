@@ -35,7 +35,7 @@ export default class extends State {
     }
 
     onStart() {
-        this.startLobby()
+        // this.startLobby()
     }
 
     startLobby() {
