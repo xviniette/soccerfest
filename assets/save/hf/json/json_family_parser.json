@@ -1,0 +1,409 @@
+[{
+	"id": 0,
+	"name": {
+		"fr": "Objets de base",
+		"en": "Basic items",
+		"es": "Objetos de base"
+	},
+	"items": [0, 3, 4, 7, 13, 21, 24, 64, 74, 77, 84, 102, 113, 115, 116, 117]
+}, {
+	"id": 1,
+	"name": {
+		"fr": "Kit de premiers secours",
+		"en": "First aid kit",
+		"es": "Kit de primeros auxilios"
+	},
+	"items": [1, 5, 8, 11, 18, 22, 23, 25, 27, 28, 38, 39, 65, 66, 69, 71, 82, 106, 107]
+}, {
+	"id": 2,
+	"name": {
+		"fr": "Destruction massive",
+		"en": "Massive destruction",
+		"es": "Destruccion masiva"
+	},
+	"items": [2, 6, 9, 12, 19, 30, 31, 36, 70, 72, 73, 75, 76, 80, 81, 86, 87, 88, 89, 90, 93, 95, 96, 99, 101, 112]
+}, {
+	"id": 3,
+	"name": {
+		"fr": "Champignons",
+		"en": "Mushrooms",
+		"es": "Setas"
+	},
+	"items": [14, 15, 16, 17]
+}, {
+	"id": 4,
+	"name": {
+		"fr": "Cartes a jouer",
+		"en": "Deck of cards",
+		"es": "Baraja de cartas"
+	},
+	"items": [32, 33, 34, 35]
+}, {
+	"id": 5,
+	"name": {
+		"fr": "Signes du zodiaque",
+		"en": "Zodiac signs",
+		"es": "Signos del zodíaco"
+	},
+	"items": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+}, {
+	"id": 6,
+	"name": {
+		"fr": "Potions du zodiaque",
+		"en": "Zodiac potions",
+		"es": "Pociones del zodíaco"
+	},
+	"items": [52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+}, {
+	"id": 7,
+	"name": {
+		"fr": "Coeur 1",
+		"en": "Heart 1",
+		"es": "Corazon 1"
+	},
+	"items": [103]
+}, {
+	"id": 8,
+	"name": {
+		"fr": "Coeur 2",
+		"en": "Heart 2",
+		"es": "Corazon 2"
+	},
+	"items": [104]
+}, {
+	"id": 9,
+	"name": {
+		"fr": "Coeur 3",
+		"en": "Heart 3",
+		"es": "Corazon 3"
+	},
+	"items": [105]
+}, {
+	"id": 10,
+	"name": {
+		"fr": "Tresor des pirates",
+		"en": "Pirate treasure",
+		"es": "Tesoro de los piratas"
+	},
+	"items": [20, 78, 79, 91, 94]
+}, {
+	"id": 11,
+	"name": {
+		"fr": "Gadgets Motion-Twin",
+		"en": "Motion-Twin Gadgets",
+		"es": "Cachibaches Motion-Twin"
+	},
+	"items": [83, 97, 98, 100, 108]
+}, {
+	"id": 12,
+	"name": {
+		"fr": "Armement norvegien experimental",
+		"en": "Norwegian experimental armament",
+		"es": "Armamento noruego experimental"
+	},
+	"items": [29, 37, 67, 85, 92]
+}, {
+	"id": 13,
+	"name": {
+		"fr": "Eclairage antique",
+		"en": "Ancient light",
+		"es": "Alumbrado antiguo"
+	},
+	"items": [68]
+}, {
+	"id": 14,
+	"name": {
+		"fr": "Igor-Newton",
+		"en": "Igor-Newton",
+		"es": "Igor-Newton"
+	},
+	"items": [26]
+}, {
+	"id": 15,
+	"name": {
+		"fr": "Flocon 1",
+		"en": "Snowflake 1",
+		"es": "Copo 1"
+	},
+	"items": [109]
+}, {
+	"id": 16,
+	"name": {
+		"fr": "Flocon 2",
+		"en": "Snowflake 2",
+		"es": "Copo 2"
+	},
+	"items": [110]
+}, {
+	"id": 17,
+	"name": {
+		"fr": "Flocon 3",
+		"en": "Snowflake 3",
+		"es": "Copo 3"
+	},
+	"items": [111]
+}, {
+	"id": 18,
+	"name": {
+		"fr": "Kit d'appel main libre",
+		"en": "Car Kit",
+		"es": "Kit de manos libres"
+	},
+	"items": [10]
+}, {
+	"id": 19,
+	"name": {
+		"fr": "Mario party",
+		"en": "Mario party",
+		"es": "Fiesta Mario"
+	},
+	"items": [114]
+}, {
+	"id": 20,
+	"name": {
+		"fr": "Petites gâteries",
+		"en": "Little treats",
+		"es": "Pequenas travesuras"
+	},
+	"items": [118, 121, 126, 131, 135, 145, 159, 161, 165, 166, 167, 168, 169, 287, 303]
+}, {
+	"id": 21,
+	"name": {
+		"fr": "Aliments classiques",
+		"en": "Classic food",
+		"es": "Alimentos clasicos"
+	},
+	"items": [140, 142, 143, 144, 146, 158, 187, 188, 189, 191, 192, 193, 195, 196, 197, 198, 199, 200]
+}, {
+	"id": 22,
+	"name": {
+		"fr": "Friandises",
+		"en": "Bobble Cane",
+		"es": "Golosinas"
+	},
+	"items": [120, 122, 123, 124, 125, 130, 132, 133, 134, 136, 137, 141, 163, 164]
+}, {
+	"id": 23,
+	"name": {
+		"fr": "Pierres precieuses",
+		"en": "Precious stones",
+		"es": "Piedras preciosas"
+	},
+	"items": [127, 128, 129]
+}, {
+	"id": 24,
+	"name": {
+		"fr": "Junk food",
+		"en": "Junk food",
+		"es": "Comida basura"
+	},
+	"items": [119, 139, 160, 173, 174, 175, 260, 267, 284]
+}, {
+	"id": 25,
+	"name": {
+		"fr": "Exotic !",
+		"en": "Exotic !",
+		"es": "Exotismo !"
+	},
+	"items": [138, 157, 162, 178, 179, 180, 194, 279, 280, 281, 285]
+}, {
+	"id": 26,
+	"name": {
+		"fr": "Aperitifs",
+		"en": "Aperitives",
+		"es": "Aperitivos"
+	},
+	"items": [147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 282]
+}, {
+	"id": 27,
+	"name": {
+		"fr": "Kapital Risk",
+		"en": "Kapital Risk",
+		"es": "Kapital Risk"
+	},
+	"items": [170, 171, 172]
+}, {
+	"id": 28,
+	"name": {
+		"fr": "Trophees de Grand Predateur",
+		"en": "Great Predator Trophies",
+		"es": "Trofeos del Gran Depredador"
+	},
+	"items": [209, 210, 211, 212, 213, 214, 215, 216, 217]
+}, {
+	"id": 29,
+	"name": {
+		"fr": "Delices de Harry 'le beau'",
+		"en": "Good-looking Harry's delights",
+		"es": "Delicias de Harry 'el guapo'"
+	},
+	"items": [181, 182, 183, 184, 185, 186]
+}, {
+	"id": 30,
+	"name": {
+		"fr": "Chocolats",
+		"en": "Chocolates",
+		"es": "Bombones de chocolate"
+	},
+	"items": [201, 202, 203, 204, 205, 206, 207, 208]
+}, {
+	"id": 31,
+	"name": {
+		"fr": "Fromages",
+		"en": "Cheese",
+		"es": "Quesos"
+	},
+	"items": [224, 225, 226, 227, 228, 229]
+}, {
+	"id": 32,
+	"name": {
+		"fr": "Conserves",
+		"en": "Canned food",
+		"es": "Conservas"
+	},
+	"items": [218, 219, 220, 221, 222, 223, 286]
+}, {
+	"id": 33,
+	"name": {
+		"fr": "Legumes",
+		"en": "Vegetables",
+		"es": "Legumbres"
+	},
+	"items": [230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254]
+}, {
+	"id": 34,
+	"name": {
+		"fr": "Delices MT",
+		"en": "MotionTwin Delights",
+		"es": "Delicias MotionTwin"
+	},
+	"items": [259, 261]
+}, {
+	"id": 35,
+	"name": {
+		"fr": "Kit de survie MT",
+		"en": "MotionTwin survival kit",
+		"es": "Kit de supervivencia MotionTwin"
+	},
+	"items": [255, 256, 257, 258]
+}, {
+	"id": 36,
+	"name": {
+		"fr": "L'heure du gouter",
+		"en": "Time for tea",
+		"es": "Hora de la merienda"
+	},
+	"items": [262, 263, 264, 265, 266, 268, 269, 270, 271, 272, 273, 277, 278]
+}, {
+	"id": 37,
+	"name": {
+		"fr": "Garcon patissier",
+		"en": "The cake Boy",
+		"es": "El Chico pastelero"
+	},
+	"items": [176, 177, 190, 274, 275, 276, 283]
+}, {
+	"id": 38,
+	"name": {
+		"fr": "Les lois de la robotique",
+		"en": "Laws of Robotics",
+		"es": "Las leyes de la robotica"
+	},
+	"items": [288, 289, 290, 291, 292, 293, 294, 295]
+}, {
+	"id": 39,
+	"name": {
+		"fr": "Trophees de baroudeur",
+		"en": "Fighter's trophies",
+		"es": "Trofeos del peleon"
+	},
+	"items": [296, 297, 298, 299, 300, 301, 302]
+}, {
+	"id": 40,
+	"name": {
+		"fr": "Cles des Glaces",
+		"en": "Ice-cream Keys",
+		"es": "Llaves de Helados"
+	},
+	"items": [304, 305, 308, 311, 312, 313, 314]
+}, {
+	"id": 41,
+	"name": {
+		"fr": "Cle avinee",
+		"en": "Wine Key",
+		"es": "Llave Borracha"
+	},
+	"items": [307]
+}, {
+	"id": 42,
+	"name": {
+		"fr": "Paperasse",
+		"en": "Paperwork",
+		"es": "Papeleo"
+	},
+	"items": [310]
+}, {
+	"id": 43,
+	"name": {
+		"fr": "Cles perdues",
+		"en": "Lost Keys",
+		"es": "Llaves Perdidas"
+	},
+	"items": [306, 309]
+}, {
+	"id": 44,
+	"name": {
+		"fr": "Batons de joie",
+		"en": "Glad sticks",
+		"es": "Bastones de alegría"
+	},
+	"items": [315, 316, 317, 318, 319, 320, 321, 322]
+}, {
+	"id": 45,
+	"name": {
+		"fr": "Boissons rigolotes",
+		"en": "Funny drinks",
+		"es": "Bebidas divertidas"
+	},
+	"items": [323, 324, 325, 326, 327]
+}, {
+	"id": 46,
+	"name": {
+		"fr": "Materiel administratif d'El Papah",
+		"en": "Daddy's administratrive material",
+		"es": "Material administrativo del Papa"
+	},
+	"items": [328, 329, 330, 331, 332]
+}, {
+	"id": 47,
+	"name": {
+		"fr": "Artefacts mythiques",
+		"en": "Mythical artifacts",
+		"es": "Artefactos míticos"
+	},
+	"items": [333, 334, 339, 340, 341, 351]
+}, {
+	"id": 48,
+	"name": {
+		"fr": "Sandy en kit",
+		"en": "Sandy kit",
+		"es": "Sandy en kit"
+	},
+	"items": [334, 336, 337, 338]
+}, {
+	"id": 49,
+	"name": {
+		"fr": "Recompenses du Ninjutsu",
+		"en": "Ninjutsu awards",
+		"es": "Recompensas del Ninjutsu"
+	},
+	"items": [342, 350]
+}, {
+	"id": 50,
+	"name": {
+		"fr": "Artefacts du Ninjutsu",
+		"en": "Ninjutsu artefact",
+		"es": "Artefactos del Ninjutsu"
+	},
+	"items": [343, 344, 345, 346, 347, 348, 349]
+}]

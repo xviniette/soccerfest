@@ -1,0 +1,349 @@
+[
+	{
+		"file": "sprite_shadow",
+		"area": [
+			{"x": 0,   "y": 0,   "nx": 1, "ny": 1, "n": 1, "sx": 128, "sy": 128, "r": false, "animation": "shadow","grp":""}
+		]
+	},
+	{
+		"file": "sprite_message",
+		"area": [
+			{"x": 0,   "y": 0 ,   "nx": 1, "ny": 1, "n": 1, "sx": 420, "sy": 84, "r": false, "animation": "message1","grp":""},
+			{"x": 0,   "y": 84,   "nx": 1, "ny": 1, "n": 1, "sx": 420, "sy": 520, "r": false, "animation": "message2","grp":""}
+		]
+	},
+	{
+		"file": "image_menu",
+		"area": [
+			{"x": 0,   "y": 0,   "nx": 1, "ny": 1, "n": 1, "sx": 128, "sy": 520, "r": false, "animation": "menu_background_1","grp":""},
+			{"x": 128, "y": 0,   "nx": 1, "ny": 1, "n": 1, "sx": 250, "sy": 190, "r": false, "animation": "menu_background_2","grp":""},
+			{"x": 378, "y": 0,   "nx": 1, "ny": 1, "n": 1, "sx": 360, "sy": 72,  "r": false, "animation": "menu_title","grp":""},
+			{"x": 128, "y": 190, "nx": 1, "ny": 1, "n": 1, "sx": 114, "sy": 109, "r": false, "animation": "menu_image_1","grp":""},
+			{"x": 128, "y": 299, "nx": 2, "ny": 2, "n": 4, "sx": 64,  "sy": 64,  "r": false, "animation": "menu_player","grp":""},
+			{"x": 244, "y": 190, "nx": 2, "ny": 1, "n": 2, "sx": 78,  "sy": 78,  "r": false, "animation": "menu_ice","grp":""},
+			{"x": 128, "y": 430, "nx": 1, "ny": 1, "n": 1, "sx": 19,  "sy": 19,  "r": false, "animation": "menu_cursor","grp":""},
+			{"x": 260, "y": 280, "nx": 3, "ny": 1, "n": 3, "sx": 64,  "sy": 64,  "r": false, "animation": "menu_game","grp":""},
+			{"x": 260, "y": 344, "nx": 5, "ny": 1, "n": 5, "sx": 24,  "sy": 24,  "r": false, "animation": "menu_game_option","grp":""},
+			{"x": 380, "y": 344, "nx": 3, "ny": 1, "n": 3, "sx": 24,  "sy": 24,  "r": false, "animation": "menu_game_checkbox","grp":""},
+			{"x": 452, "y": 344, "nx": 2, "ny": 1, "n": 2, "sx": 24,  "sy": 24,  "r": false, "animation": "menu_game_radio","grp":""}
+		]
+	},{
+		"file": "sprite_animation",
+		"area": [
+			{"x": 0, "y": 0, "nx": 40, "ny": 1, "n": 40, "sx": 64, "sy": 64, "r": false, "animation": "vortex","grp":""},
+			{"x": 0, "y": 64, "nx": 12, "ny": 1, "n": 12, "sx": 120, "sy": 119, "r": false, "animation": "apparition","grp":""},
+			{"x": 0, "y": 183, "nx": 6, "ny": 1, "n": 6, "sx": 54, "sy": 70, "r": false, "animation": "disparition","grp":""},
+			{"x": 0, "y": 253, "nx": 13, "ny": 1, "n": 13, "sx": 161, "sy": 566, "r": false, "animation": "mort","grp":""}
+		]
+	},{
+		"file": "sprite_rayon_teleporter",
+		"area": [
+			{"x": 0, "y": 0, "nx": 1, "ny": 1, "n": 1, "sx": 20, "sy": 94, "r": false, "animation": "teleporter","grp":""},
+			{"x": 60, "y": 0, "nx": 1, "ny": 1, "n": 1, "sx": 20, "sy": 94, "r": false, "animation": "teleporter","grp":""},
+			{"x": 20, "y": 0, "nx": 2, "ny": 9, "n": 18, "sx": 20, "sy": 20, "r": false, "animation": "rayon","grp":""},
+			{"x": 60, "y": 100, "nx": 1, "ny": 4, "n": 4, "sx": 20, "sy": 20, "r": false, "animation": "base_teleporter","grp":""},
+			{"x": 0, "y": 126, "nx": 1, "ny": 1, "n": 1, "sx": 24, "sy": 20, "r": false, "animation": "pick","grp":""},
+			{"x": 0, "y": 160, "nx": 1, "ny": 1, "n": 1, "sx": 20, "sy": 20, "r": false, "animation": "pick","grp":""}
+		]
+	},{
+		"file": "sprite_arrow",
+		"area": [
+			{"x": 0, "y": 0, "nx": 1, "ny": 1, "n": 1, "sx": 46, "sy": 16, "r": false, "animation": "arrow1","grp":""},
+			{"x": 0, "y": 16, "nx": 20, "ny": 1, "n": 20, "sx": 46, "sy": 23, "r": false, "animation": "arrow2","grp":""},
+			{"x": 0, "y": 39, "nx": 9, "ny": 1, "n": 9, "sx": 31, "sy": 11, "r": false, "animation": "arrow3","grp":""}
+		]
+	},{
+		"file": "sprite_flag",
+		"area": [
+			{"x": 0, "y": 0, "nx": 1, "ny": 3, "n": 3, "sx": 120, "sy": 80, "r": false, "animation": "flag","grp":""}
+		]
+	},{
+		"file": "sprite_background_effect",
+		"area": [
+			{"x": 0, "y": 0, "nx": 7, "ny": 1, "n": 7, "sx": 410, "sy": 500, "r": false, "animation": "backgroundEffect","grp":""}
+		]
+	},{
+		"file": "sprite_big_crystal",
+		"area": [
+			{"x": 0, "y": 0, "nx": 9, "ny": 1, "n": 9, "sx": 133, "sy": 130, "r": false, "animation": "bigCristal","grp":""}
+		]
+	},{
+		"file": "sprite_light",
+		"area": [
+			{"x": 0, "y": 0, "nx": 7, "ny": 1, "n": 7, "sx": 118, "sy": 118, "r": false, "animation": "light","grp":"decor"}
+		]
+	},{
+		"file": "sprite_map",
+		"area": [
+			{"x": 0, "y": 0, "nx": 1, "ny": 1, "n": 1, "sx": 420, "sy": 500, "r": false, "animation": "map","grp":""}
+		]
+	},{
+		"file": "sprite_objets",
+		"area": [
+			{"x": 0, "y": 0, "nx": 10, "ny": 36, "n": 354, "sx": 61, "sy": 63, "r": false, "animation": "objects","grp":""}
+		]
+	},{
+		"file": "sprite_player",
+		"area": [
+			{"x": 0,    "y": 0,     "nx": 10, "ny": 3,  "n": 28,  "sx": 41,  "sy": 46,    "r": true, "animation": "igor_right_wait","grp":""},
+			{"x": 0,    "y": 138,   "nx": 10, "ny": 2,  "n": 14,  "sx": 42,  "sy": 49,    "r": true, "animation": "igor_right_walk","grp":""},
+			{"x": 0,    "y": 236,   "nx": 10, "ny": 2,  "n": 10,  "sx": 55,  "sy": 67,    "r": true, "animation": "igor_right_jump","grp":""},
+			{"x": 0,    "y": 370,   "nx": 8,  "ny": 1,  "n": 8,   "sx": 60,  "sy": 59,    "r": true, "animation": "igor_right_startFall","grp":""},
+			{"x": 480,  "y": 370,   "nx": 2,  "ny": 1,  "n": 2,   "sx": 60,  "sy": 59,    "r": true, "animation": "igor_right_fall","grp":""},
+			{"x": 0,    "y": 429,   "nx": 10, "ny": 1,  "n": 10,  "sx": 60,  "sy": 59,    "r": true, "animation": "igor_right_fall","grp":""},
+			{"x": 0,    "y": 488,   "nx": 9,  "ny": 1,  "n": 9,   "sx": 53,  "sy": 58,    "r": true, "animation": "igor_right_landing","grp":""},
+			{"x": 0,    "y": 546,   "nx": 10, "ny": 2,  "n": 17,  "sx": 68,  "sy": 66,    "r": true, "animation": "igor_right_kill","grp":""},
+			{"x": 0,    "y": 678,   "nx": 10, "ny": 1,  "n": 10,  "sx": 82,  "sy": 72,    "r": true, "animation": "igor_right_shotbombe","grp":""},
+			{"x": 0,    "y": 750,   "nx": 10, "ny": 1,  "n": 10,  "sx": 55,  "sy": 55,    "r": true, "animation": "igor_right_dropbombe","grp":""},
+			{"x": 0,    "y": 805,   "nx": 10, "ny": 4,  "n": 35,  "sx": 61,  "sy": 63,    "r": true, "animation": "igor_right_bordplateform","grp":""},
+			{"x": 0,    "y": 1057,  "nx": 10, "ny": 11, "n": 104, "sx": 112, "sy": 68,    "r": true, "animation": "igor_right_boring","grp":""},
+			{"x": 0,    "y": 1805,  "nx": 10, "ny": 17, "n": 169, "sx": 73,  "sy": 72,    "r": true, "animation": "igor_right_chewinggum","grp":""},
+			{"x": 0,    "y": 3029,  "nx": 10, "ny": 2,  "n": 14,  "sx": 64,  "sy": 86,    "r": true, "animation": "igor_right_knockout","grp":""},
+			{"x": 0,    "y": 3201,  "nx": 10, "ny": 2,  "n": 11,  "sx": 56,  "sy": 69,    "r": true, "animation": "igor_right_raise_up","grp":""},
+			{"x": 0,    "y": 3339,  "nx": 10, "ny": 3,  "n": 28,  "sx": 87,  "sy": 115,   "r": true, "animation": "igor_right_respawn","grp":""},
+			{"x": 0,    "y": 3684,  "nx": 3,  "ny": 1,  "n": 3,   "sx": 55,  "sy": 54,    "r": true, "animation": "igor_right_arm_up","grp":""},
+			{"x": 0,    "y": 3738,  "nx": 6,  "ny": 1,  "n": 6,   "sx": 49,  "sy": 55,    "r": true, "animation": "igor_right_run","grp":""},
+			{"x": 0,    "y": 3793,  "nx": 10, "ny": 2,  "n": 13,  "sx": 51,  "sy": 56,    "r": true, "animation": "igor_right_soccerrun","grp":""},
+			{"x": 0,    "y": 3905,  "nx": 9,  "ny": 1,  "n": 9,   "sx": 62,  "sy": 71,    "r": true, "animation": "igor_right_soccerroll","grp":""},
+			{"x": 0,    "y": 3976,  "nx": 10, "ny": 2 , "n": 16,  "sx": 54,  "sy": 63,    "r": true, "animation": "igor_right_victory","grp":""},
+			{"x": 0,    "y": 4102,  "nx": 10, "ny": 2 , "n": 13,  "sx": 52,  "sy": 56,    "r": true, "animation": "igor_right_carrybombe","grp":""},
+			{"x": 0,    "y": 4214,  "nx": 7,  "ny": 1,  "n": 7,   "sx": 56,  "sy": 57,    "r": true, "animation": "igor_right_cry","grp":""},
+			{"x": 0,    "y": 4271,  "nx": 10, "ny": 3,  "n": 30,  "sx": 52,  "sy": 58,    "r": true, "animation": "igor_right_sadness","grp":""},
+			
+			{"x": 0,    "y": 4445,  "nx": 10, "ny": 3,  "n": 28,  "sx": 41,  "sy": 46,    "r": true, "animation": "sandy_right_wait","grp":""},
+			{"x": 0,    "y": 4583,  "nx": 10, "ny": 2,  "n": 14,  "sx": 42,  "sy": 49,    "r": true, "animation": "sandy_right_walk","grp":""},
+			{"x": 0,    "y": 4681,  "nx": 10, "ny": 2,  "n": 10,  "sx": 55,  "sy": 67,    "r": true, "animation": "sandy_right_jump","grp":""},
+			{"x": 0,    "y": 4815,  "nx": 8,  "ny": 1,  "n": 8,   "sx": 60,  "sy": 59,    "r": true, "animation": "sandy_right_startFall","grp":""},
+			{"x": 480,  "y": 4815,  "nx": 2,  "ny": 1,  "n": 2,   "sx": 60,  "sy": 59,    "r": true, "animation": "sandy_right_fall","grp":""},
+			{"x": 0,    "y": 4874,  "nx": 10, "ny": 1,  "n": 10,  "sx": 60,  "sy": 59,    "r": true, "animation": "sandy_right_fall","grp":""},
+			{"x": 0,    "y": 4933,  "nx": 9,  "ny": 1,  "n": 9,   "sx": 53,  "sy": 58,    "r": true, "animation": "sandy_right_landing","grp":""},
+			{"x": 0,    "y": 4991,  "nx": 10, "ny": 2,  "n": 17,  "sx": 68,  "sy": 66,    "r": true, "animation": "sandy_right_kill","grp":""},
+			{"x": 0,    "y": 5123,  "nx": 10, "ny": 1,  "n": 10,  "sx": 82,  "sy": 72,    "r": true, "animation": "sandy_right_shotbombe","grp":""},
+			{"x": 0,    "y": 5195,  "nx": 10, "ny": 1,  "n": 10,  "sx": 55,  "sy": 55,    "r": true, "animation": "sandy_right_dropbombe","grp":""},
+			{"x": 0,    "y": 5250,  "nx": 10, "ny": 4,  "n": 35,  "sx": 61,  "sy": 63,    "r": true, "animation": "sandy_right_bordplateform","grp":""},
+			{"x": 0,    "y": 5502,  "nx": 10, "ny": 11, "n": 104, "sx": 112, "sy": 68,    "r": true, "animation": "sandy_right_boring","grp":""},
+			{"x": 0,    "y": 6250,  "nx": 10, "ny": 17, "n": 169, "sx": 73,  "sy": 72,    "r": true, "animation": "sandy_right_chewinggum","grp":""},
+			{"x": 0,    "y": 7474,  "nx": 10, "ny": 2,  "n": 14,  "sx": 64,  "sy": 86,    "r": true, "animation": "sandy_right_knockout","grp":""},
+			{"x": 0,    "y": 7646,  "nx": 10, "ny": 2,  "n": 11,  "sx": 56,  "sy": 69,    "r": true, "animation": "sandy_right_raise_up","grp":""},
+			{"x": 0,    "y": 7784,  "nx": 10, "ny": 3,  "n": 28,  "sx": 87,  "sy": 115,   "r": true, "animation": "sandy_right_respawn","grp":""},
+			{"x": 0,    "y": 8129,  "nx": 3,  "ny": 1,  "n": 3,   "sx": 55,  "sy": 54,    "r": true, "animation": "sandy_right_arm_up","grp":""},
+			{"x": 0,    "y": 8183,  "nx": 6,  "ny": 1,  "n": 6,   "sx": 49,  "sy": 55,    "r": true, "animation": "sandy_right_run","grp":""},
+			{"x": 0,    "y": 8238,  "nx": 10, "ny": 2,  "n": 13,  "sx": 51,  "sy": 56,    "r": true, "animation": "sandy_right_soccerrun","grp":""},
+			{"x": 0,    "y": 8350,  "nx": 9,  "ny": 1,  "n": 9,   "sx": 62,  "sy": 71,    "r": true, "animation": "sandy_right_soccerroll","grp":""},
+			{"x": 0,    "y": 8421,  "nx": 10, "ny": 2 , "n": 16,  "sx": 54,  "sy": 63,    "r": true, "animation": "sandy_right_victory","grp":""},
+			{"x": 0,    "y": 8547,  "nx": 10, "ny": 2 , "n": 13,  "sx": 52,  "sy": 56,    "r": true, "animation": "sandy_right_carrybombe","grp":""},
+			{"x": 0,    "y": 8659,  "nx": 7,  "ny": 1,  "n": 7,   "sx": 56,  "sy": 57,    "r": true, "animation": "sandy_right_cry","grp":""},
+			{"x": 0,    "y": 8716,  "nx": 10, "ny": 3,  "n": 30,  "sx": 52,  "sy": 58,    "r": true, "animation": "sandy_right_sadness","grp":""}
+		]      
+	},{
+		"file": "sprite_bombe",
+		"area": [
+			{"x": 0, "y": 0,    "nx": 6,  "ny": 1, "n": 6,  "sx": 23,  "sy": 34,    "r": false, "animation": "white_bombe","grp":""},
+			{"x": 0, "y": 34,   "nx": 10, "ny": 2, "n": 17, "sx": 28,  "sy": 45,    "r": false, "animation": "white_bombe_drop","grp":""},
+			{"x": 0, "y": 124,  "nx": 10, "ny": 3, "n": 22, "sx": 26,  "sy": 43,    "r": false, "animation": "blue_bombe","grp":""},
+			{"x": 0, "y": 253,  "nx": 7,  "ny": 1, "n": 7,  "sx": 21,  "sy": 42,    "r": false, "animation": "blue_bombe_drop","grp":""},
+			{"x": 0, "y": 295,  "nx": 10, "ny": 2, "n": 12, "sx": 29,  "sy": 11,    "r": false, "animation": "kiwi_bombe","grp":""},
+			{"x": 0, "y": 317,  "nx": 4,  "ny": 1, "n": 4,  "sx": 19,  "sy": 40,    "r": false, "animation": "black_bombe","grp":""},
+			{"x": 0, "y": 357,  "nx": 10, "ny": 5, "n": 44, "sx": 28,  "sy": 29,    "r": false, "animation": "red_bombe","grp":""},
+			{"x": 0, "y": 502,  "nx": 10, "ny": 1, "n": 10, "sx": 22,  "sy": 22,    "r": false, "animation": "green_bombe","grp":""},
+			{"x": 0, "y": 524,  "nx": 10, "ny": 2, "n": 12, "sx": 291, "sy": 237,   "r": false, "animation": "white_bombe_explosion","grp":""},
+			{"x": 0, "y": 998,  "nx": 10, "ny": 2, "n": 12, "sx": 291, "sy": 237,   "r": false, "animation": "blue_bombe_explosion","grp":""},
+			{"x": 0, "y": 1472, "nx": 10, "ny": 1, "n": 10, "sx": 43,  "sy": 22,    "r": false, "animation": "kiwi_bombe_explosion","grp":""},
+			{"x": 0, "y": 1494, "nx": 10, "ny": 1, "n": 10, "sx": 37,  "sy": 60,    "r": false, "animation": "black_bombe_explosion","grp":""},
+			{"x": 0, "y": 1554, "nx": 10, "ny": 2, "n": 12, "sx": 291, "sy": 237,   "r": false, "animation": "red_bombe_explosion","grp":""},
+			{"x": 0, "y": 2028, "nx": 10, "ny": 2, "n": 12, "sx": 291, "sy": 237,   "r": false, "animation": "green_bombe_explosion","grp":""}
+		]
+	},{
+		"file": "sprite_level",
+		"area": [
+			{"x": 420, "y": 0    ,"nx": 1, "ny": 62, "n": 62, "sx": 400, "sy": 20,  "r": false, "animation": "platform", "grp":""},
+			{"x": 814, "y": 0    ,"nx": 1, "ny": 62, "n": 62, "sx": 6,   "sy": 20,  "r": false, "animation": "end_platform", "grp":""},
+			{"x": 0,   "y": 0    ,"nx": 1, "ny": 1,  "n": 1,  "sx": 419, "sy": 500, "r": false, "animation": "level_background", "grp":""},
+			{"x": 820, "y": 0    ,"nx": 4, "ny": 7 , "n": 27, "sx": 128, "sy": 128, "r": false, "animation": "level_background", "grp":""},
+			{"x": 0,   "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 16,  "sy": 500, "r": false, "animation": "border_right", "grp":""},
+			{"x": 10,  "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 20,  "sy": 500, "r": false, "animation": "border_left", "grp":""},
+			{"x": 0,   "y": 1000 ,"nx": 1, "ny": 3,  "n": 3,  "sx": 420, "sy": 20,  "r": false, "animation": "border_score", "grp":""},
+			{"x": 0,   "y": 1060 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 13,  "sy": 13,  "r": false, "animation": "life+", "grp":""},
+			{"x": 0,   "y": 1073 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 27,  "sy": 30,  "r": false, "animation": "life", "grp":""},
+			{"x": 39,  "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 65,  "sy": 71,  "r": false, "animation": "doors", "grp":""},
+			{"x": 39,  "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 65,  "sy": 71,  "r": false, "animation": "doors", "grp":""},
+			{"x": 104,  "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 65,  "sy": 71,  "r": false, "animation": "doors", "grp":""},
+			{"x": 104,  "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 65,  "sy": 71,  "r": false, "animation": "doors", "grp":""},
+			{"x": 168, "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 74,  "sy": 77,  "r": false, "animation": "doors", "grp":""},
+			{"x": 168, "y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 74,  "sy": 77,  "r": false, "animation": "doors", "grp":""},
+			{"x": 242, "y": 500  ,"nx": 2, "ny": 1,  "n": 2,  "sx": 52,  "sy": 64,  "r": false, "animation": "doors", "grp":""},
+			{"x": 345, "y": 500  ,"nx": 2, "ny": 1,  "n": 2,  "sx": 37,  "sy": 35,  "r": false, "animation": "serrure", "grp":""},
+			{"x": 39,  "y": 576  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 48,  "sy": 15,  "r": false, "animation": "fly", "grp":""},
+			{"x": 84,  "y": 576  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 39,  "sy": 29,  "r": false, "animation": "ghost", "grp":""},
+			{"x": 39,  "y": 606  ,"nx": 5, "ny": 2,  "n": 10, "sx": 58,  "sy": 52,  "r": false, "animation": "hammer", "grp":""},
+			{"x": 39,  "y": 712  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 44,  "sy": 44,  "r": false, "animation": "ice", "grp":""},
+			{"x": 39,  "y": 756  ,"nx": 4, "ny": 1,  "n": 4,  "sx": 21,  "sy": 25,  "r": false, "animation": "cristalsBonus", "grp":""},
+			{"x": 39,  "y": 787  ,"nx": 7, "ny": 1,  "n": 7,  "sx": 12,  "sy": 14,  "r": false, "animation": "lettre1", "grp":""},
+			{"x": 39,  "y": 802  ,"nx": 7, "ny": 1,  "n": 7,  "sx": 22,  "sy": 22,  "r": false, "animation": "lettreGame", "grp":""},
+			{"x": 39,  "y": 824  ,"nx": 4, "ny": 1,  "n": 4,  "sx": 32,  "sy": 31,  "r": false, "animation": "fire", "grp":""},
+			{"x": 39,  "y": 855  ,"nx": 5, "ny": 1,  "n": 5,  "sx": 20,  "sy": 11,  "r": false, "animation": "mapEvent", "grp":""},
+			{"x": 39,  "y": 866  ,"nx": 5, "ny": 2,  "n": 10, "sx": 43,  "sy": 42,  "r": false, "animation": "cristals", "grp":""},
+			
+			{"x": 1332,"y": 660  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 84,  "sy": 94,  "r": false, "animation": "canne", "grp":"decor"},
+			{"x": 1416,"y": 660  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 80,  "sy": 104,  "r": false, "animation": "mirror", "grp":"decor"},
+			{"x": 1496,"y": 660  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 58,  "sy": 126, "r": false, "animation": "rocks", "grp":"decor"},
+			{"x": 1554,"y": 660  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 58,  "sy": 126, "r": false, "animation": "rocks", "grp":"decor"},
+			{"x": 1332,"y": 0  	 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 420,  "sy": 500, "r": false, "animation": "level0", "grp":"decor"},
+			{"x": 1332,"y": 500  ,"nx": 1, "ny": 1,  "n": 1,  "sx": 420,  "sy": 145, "r": false, "animation": "level1", "grp":"decor"},
+			
+			
+			
+			{"x": 39,  "y": 1060 ,"nx": 2, "ny": 1,  "n": 2,  "sx": 21,  "sy": 10,  "r": false, "animation": "button", "grp":""},
+			{"x": 81,  "y": 1060 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 26,  "sy": 26,  "r": false, "animation": "discuss", "grp":""},
+			{"x": 107, "y": 1060 ,"nx": 2, "ny": 1,  "n": 2,  "sx": 43,  "sy": 31,  "r": false, "animation": "serrure", "grp":""},
+			{"x": 193, "y": 1060 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 40,  "sy": 40,  "r": false, "animation": "block", "grp":""},
+			{"x": 233, "y": 1060 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 45,  "sy": 29,  "r": false, "animation": "bed", "grp":"decor"},
+			{"x": 278, "y": 1060 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 39,  "sy": 29,  "r": false, "animation": "bed", "grp":"decor"},
+            {"x": 0,   "y": 1167 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 44,  "sy": 48,  "r": false, "animation": "doors", "grp":""},
+            {"x": 0,   "y": 1120 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 44,  "sy": 48,  "r": false, "animation": "doors", "grp":""},
+            {"x": 137, "y": 1120 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 97,  "sy": 92,  "r": false, "animation": "doors", "grp":""},
+            {"x": 44,  "y": 1120 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 97,  "sy": 92,  "r": false, "animation": "doors", "grp":""},
+			{"x": 260, "y": 1092 ,"nx": 1, "ny": 1,  "n": 1,  "sx": 160, "sy": 148, "r": false, "animation": "carotteux", "grp":"decor"}
+			
+			
+		]
+	},{
+		"file": "sprite_ennemies",
+		"area": [
+			{"x": 0, "y":    0, "nx": 17   ,"ny":1, "n": 17,"sx":   21, "sy":   29, "r": true, "animation": "abricot_walk","grp":""},
+			{"x": 0, "y":    0, "nx": 17   ,"ny":1, "n": 17,"sx":   21, "sy":   29, "r": true, "animation": "abricot_jump","grp":""},
+			{"x": 0, "y":   29, "nx": 13   ,"ny":1, "n": 13,"sx":   29, "sy":   32, "r": true, "animation": "abricot_angry","grp":""},
+			{"x": 0, "y":   61, "nx": 13   ,"ny":1, "n": 13,"sx":   20, "sy":   23, "r": true, "animation": "abricot_knock_out","grp":""},
+			{"x": 0, "y":   84, "nx": 13   ,"ny":1, "n": 13,"sx":   31, "sy":   31, "r": true, "animation": "abricot_dead","grp":""},
+			{"x": 0, "y":  115, "nx":  5   ,"ny":1, "n":  5,"sx":   20, "sy":   24, "r": true, "animation": "abricot_look","grp":""},
+			{"x":460, "y":   0, "nx": 17   ,"ny":1, "n": 17,"sx":   17, "sy":   23, "r": true, "animation": "nainbricot_walk","grp":""},
+			{"x":460, "y":   0, "nx": 17   ,"ny":1, "n": 17,"sx":   17, "sy":   23, "r": true, "animation": "nainbricot_jump","grp":""},
+			{"x":460, "y":  23, "nx": 13   ,"ny":1, "n": 13,"sx":   24, "sy":   27, "r": true, "animation": "nainbricot_angry","grp":""},
+			{"x":460, "y":  50, "nx": 23   ,"ny":1, "n": 13,"sx":   40, "sy":   32, "r": true, "animation": "nainbricot_knock_out","grp":""},
+			{"x":460, "y":  82, "nx": 13   ,"ny":1, "n": 13,"sx":   25, "sy":   26, "r": true, "animation": "nainbricot_dead","grp":""},
+			{"x":460, "y": 108, "nx":  5   ,"ny":1, "n":  5,"sx":   16, "sy":   19, "r": true, "animation": "nainbricot_look","grp":""},
+			{"x": 0, "y":  177, "nx": 15   ,"ny":1, "n": 15,"sx":   39, "sy":   49, "r": true, "animation": "annanas_walk","grp":""},
+			{"x": 0, "y":  226, "nx": 13   ,"ny":1, "n": 13,"sx":   39, "sy":   50, "r": true, "animation": "annanas_angry","grp":""},
+			{"x": 0, "y":  276, "nx":  1   ,"ny":1, "n":  1,"sx":   32, "sy":   44, "r": true, "animation": "annanas_frozed","grp":""},
+			{"x": 0, "y":  320, "nx": 13   ,"ny":1, "n": 13,"sx":   32, "sy":   44, "r": true, "animation": "annanas_knock_out2","grp":""},
+			{"x": 0, "y":  364, "nx": 23   ,"ny":1, "n": 23,"sx":   42, "sy":   45, "r": true, "animation": "annanas_knock_out","grp":""},
+			{"x": 0, "y":  409, "nx":  5   ,"ny":1, "n":  5,"sx":   31, "sy":   45, "r": true, "animation": "annanas_dead","grp":""},
+			{"x": 0, "y":  454, "nx": 14   ,"ny":1, "n": 14,"sx":   84, "sy":   50, "r": true, "animation": "annanas_burn_down","grp":""},
+			{"x": 0, "y":  504, "nx":  6   ,"ny":1, "n":  6,"sx":   54, "sy":   60, "r": true, "animation": "annanas_burn_up","grp":""},
+			{"x": 0, "y":  564, "nx":  5   ,"ny":1, "n":  5,"sx":   32, "sy":   42, "r": true, "animation": "annanas_jump","grp":""},
+			{"x": 0, "y":  606, "nx": 14   ,"ny":1, "n": 14,"sx":   24, "sy":   43, "r": true, "animation": "banane_walk","grp":""},
+			{"x": 0, "y":  649, "nx": 14   ,"ny":1, "n": 14,"sx":   30, "sy":   45, "r": true, "animation": "banane_angry","grp":""},
+			{"x": 0, "y":  694, "nx":  1   ,"ny":1, "n":  1,"sx":   25, "sy":   30, "r": true, "animation": "banane_frozed","grp":""},
+			{"x": 0, "y":  724, "nx": 21   ,"ny":1, "n": 21,"sx":   29, "sy":   37, "r": true, "animation": "banane_knock_out","grp":""},
+			{"x": 0, "y":  761, "nx":  5   ,"ny":1, "n":  5,"sx":   12, "sy":   38, "r": true, "animation": "banane_dead","grp":""},
+			{"x": 0, "y":  799, "nx": 38   ,"ny":1, "n": 38,"sx":   26, "sy":   37, "r": true, "animation": "banane_look","grp":""},
+			{"x": 0, "y":  836, "nx":  5   ,"ny":1, "n":  5,"sx":   19, "sy":   41, "r": true, "animation": "banane_jump","grp":""},
+			{"x": 0, "y":  877, "nx": 12   ,"ny":1, "n": 12,"sx":   20, "sy":   20, "r": true, "animation": "blob_walk","grp":""},
+			{"x": 0, "y":  897, "nx": 16   ,"ny":1, "n": 16,"sx":   20, "sy":   22, "r": true, "animation": "blob_angry","grp":""},
+			{"x": 0, "y":  919, "nx":  1   ,"ny":1, "n":  1,"sx":   24, "sy":   23, "r": true, "animation": "blob_frozed","grp":""},
+			{"x": 0, "y":  942, "nx": 13   ,"ny":1, "n": 13,"sx":   22, "sy":   19, "r": true, "animation": "blob_shot","grp":""},
+			{"x": 0, "y":  961, "nx": 11   ,"ny":1, "n": 11,"sx":   55, "sy":   36, "r": true, "animation": "bombinos_walk","grp":""},
+			{"x": 0, "y":  997, "nx": 12   ,"ny":1, "n": 12,"sx":   43, "sy":   42, "r": true, "animation": "bombinos_knock_out","grp":""},
+			{"x": 0, "y": 1039, "nx": 12   ,"ny":1, "n": 12,"sx":   51, "sy":   47, "r": true, "animation": "bombinos_look","grp":""},
+			{"x": 0, "y": 1086, "nx": 15   ,"ny":1, "n": 15,"sx":   45, "sy":   47, "r": true, "animation": "bombinos_jump","grp":""},
+			{"x": 0, "y": 1133, "nx": 20   ,"ny":1, "n": 20,"sx":   23, "sy":   25, "r": true, "animation": "cerise_walk","grp":""},
+			{"x": 0, "y": 1158, "nx": 13   ,"ny":1, "n": 13,"sx":   42, "sy":   34, "r": true, "animation": "cerise_angry","grp":""},
+			{"x": 0, "y": 1192, "nx":  1   ,"ny":1, "n":  1,"sx":   26, "sy":   29, "r": true, "animation": "cerise_frozed","grp":""},
+			{"x": 0, "y": 1221, "nx": 13   ,"ny":1, "n": 13,"sx":   26, "sy":   22, "r": true, "animation": "cerise_knock_out","grp":""},
+			{"x": 0, "y": 1243, "nx":  2   ,"ny":1, "n":  2,"sx":   26, "sy":   37, "r": true, "animation": "cerise_dead","grp":""},
+			{"x": 0, "y": 1280, "nx":  8   ,"ny":1, "n":  8,"sx":   15, "sy":   30, "r": true, "animation": "citron_ammo","grp":""},
+			{"x": 0, "y": 1310, "nx": 16   ,"ny":1, "n": 16,"sx":   37, "sy":   37, "r": true, "animation": "citron_walk","grp":""},
+			{"x": 0, "y": 1310, "nx": 16   ,"ny":1, "n": 16,"sx":   37, "sy":   37, "r": true, "animation": "citron_jump","grp":""},
+			{"x": 0, "y": 1347, "nx":  7   ,"ny":1, "n":  7,"sx":   24, "sy":   30, "r": true, "animation": "citron_angry","grp":""},
+			{"x": 0, "y": 1377, "nx": 15   ,"ny":1, "n": 15,"sx":   40, "sy":   47, "r": true, "animation": "citron_knock_out","grp":""},
+			{"x": 0, "y": 1424, "nx":  1   ,"ny":1, "n":  1,"sx":   16, "sy":    8, "r": true, "animation": "citron_smile","grp":""},
+			{"x": 0, "y": 1432, "nx": 15   ,"ny":1, "n": 15,"sx":   30, "sy":   43, "r": true, "animation": "citron_shot","grp":""},
+			{"x": 720,"y": 1280, "nx": 10   ,"ny":1, "n": 10,"sx":   38, "sy":   41, "r": true, "animation": "citron_shot2","grp":""},
+			{"x": 720,"y": 1321, "nx":  5   ,"ny":1, "n":  5,"sx":   23, "sy":   43, "r": true, "animation": "citron_dead","grp":""},
+			{"x": 0, "y": 1515, "nx": 20   ,"ny":1, "n": 20,"sx":   49, "sy":   27, "r": true, "animation": "fireball_walk","grp":""},
+			{"x": 0, "y": 1542, "nx": 60   ,"ny":1, "n": 60,"sx":   25, "sy":   22, "r": true, "animation": "fireball_eyes","grp":""},
+			{"x": 0, "y": 1564, "nx":  1   ,"ny":1, "n":  1,"sx":   13, "sy":   13, "r": true, "animation": "fraise_ball","grp":""},
+			{"x": 0, "y": 1577, "nx": 16   ,"ny":1, "n": 16,"sx":   50, "sy":   44, "r": true, "animation": "fraise_walk","grp":""},
+			{"x": 0, "y": 1631, "nx": 12   ,"ny":1, "n": 12,"sx":   60, "sy":   54, "r": true, "animation": "fraise_angry","grp":""},
+			{"x": 0, "y": 1685, "nx":  1   ,"ny":1, "n":  1,"sx":   33, "sy":   42, "r": true, "animation": "fraise_frozen","grp":""},
+			{"x": 0, "y": 1727, "nx":  1   ,"ny":1, "n":  1,"sx":   43, "sy":   46, "r": true, "animation": "fraise_dead","grp":""},
+			{"x": 0, "y": 1773, "nx": 18   ,"ny":1, "n": 18,"sx":   51, "sy":   51, "r": true, "animation": "fraise_loop1","grp":""},
+			{"x": 0, "y": 1824, "nx":  9   ,"ny":1, "n":  9,"sx":   48, "sy":   50, "r": true, "animation": "fraise_loop2","grp":""},
+			{"x": 0, "y": 1874, "nx": 15   ,"ny":1, "n": 15,"sx":   38, "sy":   39, "r": true, "animation": "fraise_wait_ball","grp":""},
+			{"x": 0, "y": 1913, "nx":  8   ,"ny":1, "n":  8,"sx":   37, "sy":   42, "r": true, "animation": "fraise","grp":""},
+			{"x": 0, "y": 1955, "nx": 17   ,"ny":1, "n": 17,"sx":   43, "sy":   35, "r": true, "animation": "framboise_walk","grp":""},
+			{"x": 0, "y": 1990, "nx": 13   ,"ny":1, "n": 13,"sx":   43, "sy":   34, "r": true, "animation": "framboise_angry","grp":""},
+			{"x": 0, "y": 2024, "nx":  1   ,"ny":1, "n":  1,"sx":   28, "sy":   32, "r": true, "animation": "framboise_frozed","grp":""},
+			{"x": 0, "y": 2056, "nx":  1   ,"ny":1, "n":  1,"sx":   26, "sy":   31, "r": true, "animation": "framboise_dead","grp":""},
+			{"x": 0, "y": 2087, "nx":  9   ,"ny":1, "n":  9,"sx":   13, "sy":   13, "r": true, "animation": "ennemies_star","grp":""},
+			{"x": 0, "y": 2100, "nx": 31   ,"ny":1, "n": 31,"sx":   40, "sy":   22, "r": true, "animation": "ennemies_star2","grp":""},
+			{"x": 0, "y": 2122, "nx": 31   ,"ny":1, "n": 31,"sx":   40, "sy":   22, "r": true, "animation": "ennemies_star2","grp":""},
+			{"x": 0, "y": 2144, "nx":  8   ,"ny":1, "n":  8,"sx":   26, "sy":   33, "r": true, "animation": "framboise_smile","grp":""},
+			{"x": 0, "y": 2177, "nx": 14   ,"ny":1, "n": 14,"sx":   45, "sy":   44, "r": true, "animation": "framboise_explode","grp":""},
+			{"x": 0, "y": 2221, "nx": 25   ,"ny":1, "n": 25,"sx":   29, "sy":   32, "r": true, "animation": "framboise_look_left_right","grp":""},
+			{"x": 0, "y": 2253, "nx":  9   ,"ny":1, "n":  9,"sx":   27, "sy":   30, "r": true, "animation": "framboise_look_up","grp":""},
+			{"x": 0, "y": 2283, "nx":  5   ,"ny":1, "n":  5,"sx":   29, "sy":   31, "r": true, "animation": "framboise_part","grp":""},
+			{"x": 0, "y": 2314, "nx": 17   ,"ny":1, "n": 17,"sx":   75, "sy":   45, "r": true, "animation": "tuberculoz_fruit","grp":""},
+			{"x": 0, "y": 2359, "nx": 15   ,"ny":1, "n": 15,"sx":   29, "sy":   25, "r": true, "animation": "kiwi_walk","grp":""},
+			{"x": 0, "y": 2384, "nx":  5   ,"ny":1, "n":  5,"sx":   48, "sy":   27, "r": true, "animation": "kiwi_angry","grp":""},
+			{"x": 0, "y": 2411, "nx":  1   ,"ny":1, "n":  1,"sx":   27, "sy":   27, "r": true, "animation": "kiwi_frozed","grp":""},
+			{"x": 0, "y": 2438, "nx": 13   ,"ny":1, "n": 13,"sx":   41, "sy":   37, "r": true, "animation": "kiwi_knock_out","grp":""},
+			{"x": 0, "y": 2475, "nx": 34   ,"ny":1, "n": 34,"sx":   65, "sy":   36, "r": true, "animation": "kiwi_slice","grp":""},
+			{"x": 0, "y": 2511, "nx": 20   ,"ny":1, "n": 20,"sx":   53, "sy":   34, "r": true, "animation": "kiwi_slice_out","grp":""},
+			{"x": 0, "y": 2545, "nx": 13   ,"ny":1, "n": 13,"sx":   32, "sy":   25, "r": true, "animation": "kiwi_jump","grp":""},
+			{"x": 0, "y": 2545, "nx": 13   ,"ny":1, "n": 13,"sx":   32, "sy":   25, "r": true, "animation": "kiwi_look","grp":""},
+			{"x": 0, "y": 2570, "nx":  5   ,"ny":1, "n":  5,"sx":   18, "sy":   23, "r": true, "animation": "litchi2_dead","grp":""},
+			{"x": 0, "y": 2593, "nx": 20   ,"ny":1, "n": 20,"sx":   42, "sy":   35, "r": true, "animation": "litchi2_walk","grp":""},
+			{"x": 0, "y": 2628, "nx": 17   ,"ny":1, "n": 17,"sx":   41, "sy":   43, "r": true, "animation": "litchi2_knockout","grp":""},
+			{"x": 0, "y": 2671, "nx":  1   ,"ny":1, "n":  1,"sx":   29, "sy":   29, "r": true, "animation": "litchi2_frozed","grp":""},
+			{"x": 0, "y": 2700, "nx": 12   ,"ny":1, "n": 12,"sx":   46, "sy":   47, "r": true, "animation": "litchi_explode","grp":""},
+			{"x": 0, "y": 2747, "nx":  9   ,"ny":1, "n":  9,"sx":   32, "sy":   25, "r": true, "animation": "litchi_fall","grp":""},
+			{"x": 100, "y": 2772, "nx":  8   ,"ny":1, "n":  8,"sx":   38, "sy":   45, "r": true, "animation": "litchi_frozed","grp":""},
+			{"x": 0, "y": 2827, "nx":  1   ,"ny":1, "n":  1,"sx":    4, "sy":    4, "r": true, "animation": "litchi_part","grp":""},
+			{"x": 0, "y": 2831, "nx": 12   ,"ny":1, "n": 12,"sx":   24, "sy":   27, "r": true, "animation": "litchi_walk","grp":""},
+			{"x": 0, "y": 2869, "nx":  6   ,"ny":1, "n":  6,"sx":   33, "sy":   31, "r": true, "animation": "litchi_angry","grp":""},
+			{"x": 0, "y": 2900, "nx":  1   ,"ny":1, "n":  1,"sx":   24, "sy":   26, "r": true, "animation": "litchi_","grp":""},
+			{"x": 0, "y": 2926, "nx":  1   ,"ny":1, "n":  1,"sx":   11, "sy":   10, "r": true, "animation": "litchi_eyes","grp":""},
+			{"x": 0, "y": 2936, "nx": 13   ,"ny":1, "n": 13,"sx":    8, "sy":   11, "r": true, "animation": "litchi_eyes2","grp":""},
+			{"x": 0, "y": 2947, "nx": 17   ,"ny":1, "n": 17,"sx":    8, "sy":   11, "r": true, "animation": "litchi_3","grp":""},
+			{"x": 0, "y": 2958, "nx": 18   ,"ny":1, "n": 18,"sx":   41, "sy":   48, "r": true, "animation": "litchi_knock_out","grp":""},
+			{"x": 0, "y": 3006, "nx":  9   ,"ny":1, "n":  9,"sx":   37, "sy":   27, "r": true, "animation": "litchi_jump","grp":""},
+			{"x": 0, "y": 3006, "nx":  9   ,"ny":1, "n":  9,"sx":   37, "sy":   27, "r": true, "animation": "litchi_look","grp":""},
+			{"x": 0, "y": 3033, "nx":  8   ,"ny":1, "n":  8,"sx":   43, "sy":   59, "r": true, "animation": "litchi_other","grp":""},
+			{"x": 0, "y": 3092, "nx": 17   ,"ny":1, "n": 17,"sx":   28, "sy":   27, "r": true, "animation": "orange_walk","grp":""},
+			{"x": 0, "y": 3119, "nx": 10   ,"ny":1, "n": 10,"sx":   26, "sy":   26, "r": true, "animation": "orange_angry","grp":""},
+			{"x": 0, "y": 3145, "nx":  1   ,"ny":1, "n":  1,"sx":   29, "sy":   30, "r": true, "animation": "orange_frozed","grp":""},
+			{"x": 0, "y": 3175, "nx":  5   ,"ny":1, "n":  5,"sx":   45, "sy":   45, "r": true, "animation": "orange_knock_out","grp":""},
+			{"x": 0, "y": 3220, "nx": 14   ,"ny":1, "n": 14,"sx":   29, "sy":   27, "r": true, "animation": "orange_jump","grp":""},
+			{"x": 0, "y": 3247, "nx":  8   ,"ny":1, "n":  8,"sx":   25, "sy":   25, "r": true, "animation": "pasteque_walk","grp":""},
+			{"x": 0, "y": 3272, "nx":  1   ,"ny":1, "n":  1,"sx":   29, "sy":   31, "r": true, "animation": "pasteque_frozed","grp":""},
+			{"x": 0, "y": 3303, "nx":  1   ,"ny":1, "n":  1,"sx":   27, "sy":   26, "r": true, "animation": "pasteque_knock_out","grp":""},
+			{"x": 0, "y": 3329, "nx":  4   ,"ny":1, "n":  4,"sx":   33, "sy":   25, "r": true, "animation": "poire_bombe","grp":""},
+			{"x": 0, "y": 3354, "nx": 14   ,"ny":1, "n": 14,"sx":   25, "sy":   39, "r": true, "animation": "poire_walk","grp":""},
+			{"x": 0, "y": 3393, "nx": 14   ,"ny":1, "n": 14,"sx":   28, "sy":   41, "r": true, "animation": "poire_angry","grp":""},
+			{"x": 0, "y": 3434, "nx":  1   ,"ny":1, "n":  1,"sx":   25, "sy":   34, "r": true, "animation": "poire_frozed","grp":""},
+			{"x": 0, "y": 3468, "nx": 23   ,"ny":1, "n": 23,"sx":   41, "sy":   43, "r": true, "animation": "poire_knock_out","grp":""},
+			{"x": 0, "y": 3511, "nx":  5   ,"ny":1, "n":  5,"sx":   25, "sy":   35, "r": true, "animation": "poire_dead","grp":""},
+			{"x": 0, "y": 3546, "nx": 11   ,"ny":1, "n": 11,"sx":   38, "sy":   36, "r": true, "animation": "poire_bombeout1","grp":""},
+			{"x": 0, "y": 3582, "nx":  8   ,"ny":1, "n":  8,"sx":   29, "sy":   46, "r": true, "animation": "poire_bombeout2","grp":""},
+			{"x": 0, "y": 3628, "nx":  4   ,"ny":1, "n":  4,"sx":   25, "sy":   39, "r": true, "animation": "poire_dead","grp":""},
+			{"x": 0, "y": 3667, "nx":  5   ,"ny":1, "n":  5,"sx":   30, "sy":   35, "r": true, "animation": "poire_jump","grp":""},
+			{"x": 0, "y": 3702, "nx":  5   ,"ny":1, "n":  5,"sx":   38, "sy":   36, "r": true, "animation": "poire_bombeout3","grp":""},
+			{"x": 0, "y": 3738, "nx":  1   ,"ny":1, "n":  1,"sx":   10, "sy":    6, "r": true, "animation": "pomme_pepin","grp":""},
+			{"x": 0, "y": 3744, "nx": 14   ,"ny":1, "n": 14,"sx":   29, "sy":   35, "r": true, "animation": "pomme_walk","grp":""},
+			{"x": 0, "y": 3779, "nx": 13   ,"ny":1, "n": 13,"sx":   32, "sy":   33, "r": true, "animation": "pomme_angry","grp":""},
+			{"x": 0, "y": 3812, "nx":  1   ,"ny":1, "n":  1,"sx":   26, "sy":   27, "r": true, "animation": "pomme_frozed","grp":""},
+			{"x": 0, "y": 3839, "nx": 13   ,"ny":1, "n": 13,"sx":   25, "sy":   24, "r": true, "animation": "pomme_knock_out","grp":""},
+			{"x": 0, "y": 3863, "nx": 23   ,"ny":1, "n": 23,"sx":   29, "sy":   34, "r": true, "animation": "pomme_knock_out2","grp":""},
+			{"x": 0, "y": 3897, "nx":  4   ,"ny":1, "n":  4,"sx":   24, "sy":   28, "r": true, "animation": "pomme_dead","grp":""},
+			{"x": 0, "y": 3925, "nx": 19   ,"ny":1, "n": 19,"sx":   33, "sy":   32, "r": true, "animation": "pomme_shot","grp":""},
+			{"x": 0, "y": 3957, "nx": 22   ,"ny":1, "n": 22,"sx":   73, "sy":   31, "r": true, "animation": "pomme_shot2","grp":""},
+			{"x": 0, "y": 3988, "nx":  3   ,"ny":1, "n":  3,"sx":   28, "sy":   27, "r": true, "animation": "pomme_look","grp":""},
+			{"x": 0, "y": 4015, "nx":  4   ,"ny":1, "n":  4,"sx":   28, "sy":   26, "r": true, "animation": "pomme_fall","grp":""},
+            {"x": 0, "y": 4015, "nx":  4   ,"ny":1, "n":  4,"sx":   28, "sy":   26, "r": true, "animation": "pomme_jump","grp":""},
+			{"x": 0, "y": 4041, "nx":  8   ,"ny":1, "n":  8,"sx":   34, "sy":   34, "r": true, "animation": "pomme_shot3","grp":""},
+			{"x": 0, "y": 4075, "nx":  1   ,"ny":1, "n":  1,"sx":   32, "sy":   32, "r": true, "animation": "scie_walk","grp":""},
+			{"x": 0, "y": 4075, "nx":  1   ,"ny":1, "n":  1,"sx":   32, "sy":   32, "r": true, "animation": "scie_angry","grp":""}
+		]	
+	}
+]

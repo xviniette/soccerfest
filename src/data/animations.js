@@ -1,0 +1,98 @@
+export default {
+    bomb: {
+        frame: {
+            x: 0,
+            y: 0,
+            width: 19,
+            height: 40,
+            hitX: 9,
+            hitY: 30,
+            hitW: 21,
+            hitH: 21,
+        },
+        animation: { start: 0, end: 3 },
+    },
+    igor_idle: {
+        frame: {
+            x: 0,
+            y: 0,
+            width: 41,
+            height: 46,
+            hitX: 20,
+            hitY: 35,
+            hitW: 20,
+            hitH: 20,
+        },
+        animation: { start: 0, end: 25, width: 10 * 41 },
+    },
+    igor_run: {
+        frame: {
+            x: 0,
+            y: 0,
+            width: 42,
+            height: 49,
+            hitX: 21,
+            hitY: 33,
+            hitW: 20,
+            hitH: 20,
+        },
+        animation: { start: 0, end: 13, width: 10 * 42, y: 142 },
+    },
+    igor_jump: {
+        frame: {
+            x: 0,
+            y: 0,
+            width: 55,
+            height: 67,
+            hitX: 26,
+            hitY: 32,
+            hitW: 20,
+            hitH: 20,
+        },
+        animation: { start: 0, end: 3, y: 315 },
+    },
+    igor_fall: {
+        frame: {
+            x: 0,
+            y: 0,
+            width: 60,
+            height: 60,
+            hitX: 29,
+            hitY: 43,
+            hitW: 20,
+            hitH: 20,
+        },
+        animation: { start: 0, end: 9, y: 430 },
+    },
+    igor_dead: {
+        frame: {
+            width: 60,
+            height: 60,
+            hitX: 29,
+            hitY: 29,
+            hitW: 20,
+            hitH: 20,
+        },
+        animation: { x: 258, y: 3145 },
+    },
+    background: {
+        frame: {
+            width: 128,
+            height: 128,
+        },
+        animation: { x: 820, width: 4 * 128, end: 30 },
+    },
+    explosion: {
+        frame: {
+            x: 0,
+            y: 0,
+            width: 37,
+            height: 83,
+            hitX: 19,
+            hitY: 70,
+            hitW: 25,
+            hitH: 25,
+        },
+        animation: { start: 0, end: 10 },
+    },
+}

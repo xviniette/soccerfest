@@ -1,0 +1,2443 @@
+[{
+		"id": 0,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Les constellations",
+			"en": "Constellations",
+			"es": "Las constelaciones"
+		},
+		"description": {
+			"fr": "Igor peut maintenant poser 2 bombes au lieu d'une seule a la fois, et ce, de maniere permanente !",
+			"en": "From now on and forever, Igor can place 2 bombs!",
+			"es": "A partir de ahora y para siempre, Igor puede poner 2 bombas!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 5,
+		"bombe": true,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [6],
+		"require": [{
+			"id": 40,
+			"val": 1
+		}, {
+			"id": 41,
+			"val": 1
+		}, {
+			"id": 42,
+			"val": 1
+		}, {
+			"id": 43,
+			"val": 1
+		}, {
+			"id": 44,
+			"val": 1
+		}, {
+			"id": 45,
+			"val": 1
+		}, {
+			"id": 46,
+			"val": 1
+		}, {
+			"id": 47,
+			"val": 1
+		}, {
+			"id": 48,
+			"val": 1
+		}, {
+			"id": 49,
+			"val": 1
+		}, {
+			"id": 50,
+			"val": 1
+		}, {
+			"id": 51,
+			"val": 1
+		}]
+	},
+	{
+		"id": 1,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Mixtures du zodiaque",
+			"en": "Zodiac mixture",
+			"es": "Influencias del zodíaco"
+		},
+		"description": {
+			"fr": "Igor sait desormais envoyer ses bombes a l'etage superieur ! Maintenez BAS enfonce pendant que vous tapez dans une bombe posee.",
+			"en": "Igor knows how to place his bombs vertically now and he can place themon the upper platform! Press DOWN arrow key beside a placed bomb.",
+			"es": "Igor ya sabe lanzar verticalmente sus bombas y colocarlas en laplataforma superior. Pulsa ABAJO junto a una bomba ya lanzada."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 6,
+		"bombe": false,
+		"bombeUp": true,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 53,
+			"val": 1
+		}, {
+			"id": 54,
+			"val": 1
+		}, {
+			"id": 55,
+			"val": 1
+		}, {
+			"id": 56,
+			"val": 1
+		}, {
+			"id": 57,
+			"val": 1
+		}, {
+			"id": 58,
+			"val": 1
+		}, {
+			"id": 59,
+			"val": 1
+		}, {
+			"id": 60,
+			"val": 1
+		}, {
+			"id": 61,
+			"val": 1
+		}, {
+			"id": 62,
+			"val": 1
+		}, {
+			"id": 63,
+			"val": 1
+		}]
+	},
+	{
+		"id": 2,
+		"light": false,
+		"life": true,
+		"titre": {
+			"fr": "Premiers pas",
+			"en": "First steps",
+			"es": "Primeros pasos"
+		},
+		"description": {
+			"fr": "Igor debutera desormais la partie avec une vie supplementaire.",
+			"en": "From now on Igor will always start the game with an extra life.",
+			"es": "A partir de ahora Igor empezara siempre la partida con una vida extra."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 7,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 103,
+			"val": 1
+		}]
+	},
+	{
+		"id": 3,
+		"light": false,
+		"life": true,
+		"titre": {
+			"fr": "L'aventure commence",
+			"en": "The adventure begins",
+			"es": "La aventura comienza"
+		},
+		"description": {
+			"fr": "Igor debutera desormais la partie avec une autre vie supplementaire.",
+			"en": "Igor will start from now on the game with another extra life.",
+			"es": "Igor empezara para siempre la partida con otra vida extra."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 8,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [9],
+		"require": [{
+			"id": 104,
+			"val": 1
+		}]
+	},
+	{
+		"id": 4,
+		"light": false,
+		"life": true,
+		"titre": {
+			"fr": "Une destinee epique",
+			"en": "An epic fate",
+			"es": "Un destino epico"
+		},
+		"description": {
+			"fr": "Igor debutera desormais la partie avec encore une vie supplementaire !",
+			"en": "Igor will start the game with another life!",
+			"es": "Igor empezara la partida con otra vida extra mas!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 9,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 105,
+			"val": 1
+		}]
+	},
+	{
+		"id": 5,
+		"light": false,
+		"life": true,
+		"titre": {
+			"fr": "Perseverance",
+			"en": "Perseverance",
+			"es": "Perseverancia"
+		},
+		"description": {
+			"fr": "Igor debutera desormais la partie avec une vie supplementaire.",
+			"en": "Igor will start the game with another life!",
+			"es": "Igor empezara la partida con otra vida extra mas!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 36,
+			"val": 5
+		}]
+	},
+	{
+		"id": 6,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Gourmandise",
+			"en": "Delicacies",
+			"es": "Gourmand"
+		},
+		"description": {
+			"fr": "De nouveaux aliments (plus sains) apparaitront desormais en jeu !",
+			"en": "New food, healthier and nicer, will appear now in the game.",
+			"es": "Nuevos alimentos, mas sanos y apetitosos, apareceran ahora en el juego."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [21],
+		"require": [{
+			"id": 118,
+			"val": 5
+		}, {
+			"id": 121,
+			"val": 1
+		}, {
+			"id": 131,
+			"val": 1
+		}, {
+			"id": 145,
+			"val": 1
+		}, {
+			"id": 159,
+			"val": 1
+		}, {
+			"id": 161,
+			"val": 1
+		}]
+	},
+	{
+		"id": 7,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Du sucre !",
+			"en": "Some sugar!",
+			"es": "Quiero algo dulce!"
+		},
+		"description": {
+			"fr": "Igor veut encore plus de sucre ! Des delicieuses friandises apparaitront desormais en jeu.",
+			"en": "Igor wants more sweet things! From now on sweets will appear in the game.",
+			"es": "Igor quiere azucar! A partir de ahora apareceran chucherías en el juego."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [22],
+		"require": [{
+			"id": 121,
+			"val": 10
+		}, {
+			"id": 145,
+			"val": 10
+		}, {
+			"id": 159,
+			"val": 10
+		}, {
+			"id": 188,
+			"val": 2
+		}, {
+			"id": 192,
+			"val": 2
+		}]
+	},
+	{
+		"id": 8,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Malnutrition",
+			"en": "Malnutrition",
+			"es": "Malnutricion"
+		},
+		"description": {
+			"fr": "Le gout d'Igor pour les aliments peu equilibres lui permettra de trouver des aliments encore plus... douteux en jeu.",
+			"en": "Igor's taste for badly-balanced food will lead him to find even more food of questionable quality.",
+			"es": "El gusto de Igor por los alimentos poco equilibrados le permitira encontraraun mas alimentos de dudosa capacidad nutritiva."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [24],
+		"require": [{
+			"id": 140,
+			"val": 5
+		}, {
+			"id": 142,
+			"val": 5
+		}, {
+			"id": 143,
+			"val": 10
+		}, {
+			"id": 146,
+			"val": 20
+		}]
+	},
+	{
+		"id": 9,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Gout raffine",
+			"en": "Good taste",
+			"es": "Gusto refinado"
+		},
+		"description": {
+			"fr": "Le regime bizarre d'Igor a amene de nouveaux aliments exotiques en jeu !",
+			"en": "Igor's weird diet brings exotic new food to the game!",
+			"es": "El regimen extrano de Igor trae nuevos y exoticos alimentos en el juego!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [25],
+		"require": [{
+			"id": 120,
+			"val": 1
+		}, {
+			"id": 158,
+			"val": 10
+		}, {
+			"id": 164,
+			"val": 2
+		}]
+	},
+	{
+		"id": 10,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Avancee technologique",
+			"en": "Technological advance",
+			"es": "Avance tecnologico"
+		},
+		"description": {
+			"fr": "Pour vous aider dans votre aventure, tout un tas d'objets aux effets bizarres font leur apparition en jeu !",
+			"en": "A lot of items of weird effects appear now in the game to help you inthe adventure!",
+			"es": "Un monton de objetos con efectos raros aparecen ahora en el juego paraayudarte en tu aventura!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [1, 8, 13, 15],
+		"require": [{
+			"id": 4,
+			"val": 1
+		}, {
+			"id": 7,
+			"val": 1
+		}, {
+			"id": 13,
+			"val": 1
+		}]
+	},
+	{
+		"id": 11,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Le petit guide des Champignons",
+			"en": "Small guide to mushrooms",
+			"es": "La pequena guía de hongos"
+		},
+		"description": {
+			"fr": "Igor a decouvert un etrange ouvrage, une sorte de livre de cuisine traitant des champignons hallucinogenes. Il pourra desormais en trouver lors de ses explorations.",
+			"en": "Igor has discovered a rare text. It's a kind of cookbook about hallucinogenicmushrooms. Igor will be able to find them now.",
+			"es": "Igor ha descubierto una obra extrana. Es una especie de libro de cocinasobre hongos alucinogenos. Ahora podra encontrarlos en sus busquedas."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [3],
+		"require": [{
+			"id": 106,
+			"val": 1
+		}]
+	},
+	{
+		"id": 12,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Trouver les pieces d'or secretes !",
+			"en": "Find the secret golden coins!",
+			"es": "Encuentra las monedas de oro secretas!"
+		},
+		"description": {
+			"fr": "Des richesses supplementaires de tres grande valeur apparaitront maintenant en jeu !",
+			"en": "Great new richness will appear now in the game!",
+			"es": "Nuevas riquezas de gran valor apareceran ahora en el juego!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [27],
+		"require": [{
+			"id": 169,
+			"val": 150
+		}]
+	},
+	{
+		"id": 13,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Le grimoire des Etoiles",
+			"en": "The book of Magic Stars",
+			"es": "El grimorio de las Estrellas"
+		},
+		"description": {
+			"fr": "Cet ouvrage mysterieux en dit long sur les 12 constellations du Zodiaque. Vous pourrez desormais les collectionner en jeu !",
+			"en": "This mysterious in-depth book talks about the 12 Zodiac Constellations.They are now available in the game!",
+			"es": "Esta obra misteriosa habla extensamente sobre las 12 constelaciones del Zodíaco.Ya estan disponibles en el juego!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [5],
+		"require": [{
+			"id": 107,
+			"val": 1
+		}]
+	},
+	{
+		"id": 14,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Armageddon",
+			"en": "Armageddon",
+			"es": "Armageddon"
+		},
+		"description": {
+			"fr": "Des objets aux effets ravageurs vont maintenant apparaitre en jeu !",
+			"en": "Items with devastating powers will appear now in the game!",
+			"es": "Objetos con efectos devastadores apareceran ahora en el juego!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [2],
+		"require": [{
+			"id": 1,
+			"val": 10
+		}, {
+			"id": 5,
+			"val": 5
+		}, {
+			"id": 11,
+			"val": 5
+		}, {
+			"id": 21,
+			"val": 10
+		}, {
+			"id": 22,
+			"val": 5
+		}, {
+			"id": 24,
+			"val": 1
+		}, {
+			"id": 25,
+			"val": 1
+		}, {
+			"id": 28,
+			"val": 3
+		}, {
+			"id": 38,
+			"val": 1
+		}, {
+			"id": 82,
+			"val": 5
+		}]
+	},
+	{
+		"id": 15,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Regime MotionTwin",
+			"en": "MotionTwin Diet",
+			"es": "Regimen MotionTwin"
+		},
+		"description": {
+			"fr": "A force de manger n'importe quoi, Igor a acquis la maitrise des jeux ! Il pourra collectionner des objets rarissimes pendant son exploration et trouver des aliments d'exception !",
+			"en": "After eating every kind of food, no matter what, Igor has become a Master ofthe games! Now he will be able to collect rare items and exceptional foodduring his adventure!",
+			"es": "A base de comer cualquier cosa, Igor se ha vuelto un maestro de los juegos!Ahora podra coleccionar objetos y alimentos muy raros durante su aventura."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [11, 34],
+		"require": [{
+			"id": 163,
+			"val": 30
+		}, {
+			"id": 175,
+			"val": 11
+		}, {
+			"id": 192,
+			"val": 11
+		}, {
+			"id": 199,
+			"val": 11
+		}, {
+			"id": 255,
+			"val": 11
+		}, {
+			"id": 256,
+			"val": 11
+		}, {
+			"id": 257,
+			"val": 11
+		}, {
+			"id": 258,
+			"val": 11
+		}, {
+			"id": 267,
+			"val": 20
+		}]
+	},
+	{
+		"id": 16,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Createur de jeu en devenir",
+			"en": "Creator of games",
+			"es": "Creador de juegos innovadores"
+		},
+		"description": {
+			"fr": "Igor semble apprecier les aliments basiques, une belle carriere dans le monde du jeu video pourrait s'offrir a lui ! Des aliments adaptes lui seront dorenavant proposes et quelques cartes a jouer pour se faire la main.",
+			"en": "Igor appreciates basic food. He could be offered a nice career in videogames!Adapted food will be available in the game, and also a deck of cards!",
+			"es": "Igor aprecia los alimentos basicos, así que puede que se le presenteuna bella carrera en el mundo de los videojuegos. Alimentos adaptados a elle seran a partir de ahora propuestos durante el juego, así como una barajade cartas!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [4, 35],
+		"require": [{
+			"id": 260,
+			"val": 20
+		}]
+	},
+	{
+		"id": 17,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "La vie est une boite de chocolats",
+			"en": "Life is like a box of chocolates...",
+			"es": "a vida es como una caja de bombones..."
+		},
+		"description": {
+			"fr": "De delicieux chocolats sont maintenant distribues en Hammerfest !",
+			"en": "Delicious chocolates will be now available in Hammerfest!",
+			"es": "Deliciosos bombones tan sorprendentes como la vida misma son distribuidos ahoraen Hammerfest!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [30],
+		"require": [{
+			"id": 164,
+			"val": 5
+		}]
+	},
+	{
+		"id": 18,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Le tresor Oune-difained",
+			"en": "Difaïned treasure",
+			"es": "El tesoro difaïned"
+		},
+		"description": {
+			"fr": "A force de ramasser des diamants apparus on ne sait comment, Igor a acquis la faculte de reperer des pierres precieuses rares ! Il en trouvera au cours de ses explorations.",
+			"en": "After collecting so many diamonds of mysterious origin, Igor adquires theability of finding precious stones! He'll be able now to find them throughouthis quests.",
+			"es": "A base de recoger tantos diamantes de misteriosa aparicion, Igor ha adquiridola facultad de localizar las piedras preciosas raras! Ahora podra encontrarlasa lo largo de sus exploraciones."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [23],
+		"require": [{
+			"id": 126,
+			"val": 30
+		}]
+	},
+	{
+		"id": 19,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Super size me !",
+			"en": "Super size me!",
+			"es": "Super size me!"
+		},
+		"description": {
+			"fr": "Toujours plus loin dans la malnutrition, Igor a decouvert qu'il pouvait aussi se nourrir de produits en boite.",
+			"en": "Keeping far from good food, Igor discovers now that he can also eatcanned food!",
+			"es": "Como siempre, bien lejos de la buena alimentacion, Igor descubre que puedetambien alimentarse de alimentos en conserva."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [32],
+		"require": [{
+			"id": 119,
+			"val": 20
+		}, {
+			"id": 173,
+			"val": 20
+		}, {
+			"id": 174,
+			"val": 20
+		}]
+	},
+	{
+		"id": 20,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Maitre joaillier",
+			"en": "Master jeweller",
+			"es": "Maestro joyero"
+		},
+		"description": {
+			"fr": "Igor est devenu un veritable expert en pierres precieuses. Il pourra maintenant decouvrir de puissants bijoux magiques au fil de ses explorations !",
+			"en": "Igor has become an expert in precious stones. Now his knowledge permits him todiscover precious stones which are even more powerful!",
+			"es": "Igor se ha convertido en un autentico experto en piedras preciosas. Ahora susconocimientos le permiten descubrir joyas preciosas aun mas poderosas!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [10, 12],
+		"require": [{
+			"id": 127,
+			"val": 10
+		}, {
+			"id": 128,
+			"val": 5
+		}, {
+			"id": 129,
+			"val": 1
+		}]
+	},
+	{
+		"id": 21,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Grand predateur",
+			"en": "Great Predator",
+			"es": "Gran Depredador"
+		},
+		"description": {
+			"fr": "Igor en a plus qu'assez de chasser des choses sucrees ! Desormais devenu un predateur sans pitie, il pourra traquer et devorer toute sorte de charcuteries.",
+			"en": "Igor is fed up hunting sweets! As he has turned into an unconditional predator,now he will be able to devour any sort of delicacy.",
+			"es": "Igor esta bien harto cazar chucherías! Depredador incondicional, ahora podradevorar toda clase de charcutería."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [28],
+		"require": [{
+			"id": 119,
+			"val": 20
+		}, {
+			"id": 139,
+			"val": 10
+		}, {
+			"id": 143,
+			"val": 20
+		}, {
+			"id": 179,
+			"val": 1
+		}, {
+			"id": 280,
+			"val": 10
+		}]
+	},
+	{
+		"id": 22,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Expert en salades et potages",
+			"en": "Expert in salads and stews",
+			"es": "Experto en ensaladas y potajes"
+		},
+		"description": {
+			"fr": "On raconte partout qu'Igor serait la reincarnation de Saladou, le maitre mondialement reconnu de la salade. Fort de ce don, il pourra a l'avenir cueillir une tres grande variete de legumes !",
+			"en": "They say that Igor is the reencarnation of Saladou, the world famous masterof salads for virtual rabbits. With this new talent, he will be able to collecta great variety of vegetables!",
+			"es": "Se cuenta que Igor es la reencarnacion de Ensalado, el reconocido maestro de la ensaladapara conejos virtuales. Con su don podra recoger una gran variedad de verduras!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [33],
+		"require": [{
+			"id": 138,
+			"val": 15
+		}, {
+			"id": 157,
+			"val": 1
+		}, {
+			"id": 178,
+			"val": 2
+		}, {
+			"id": 221,
+			"val": 3
+		}, {
+			"id": 222,
+			"val": 5
+		}]
+	},
+	{
+		"id": 23,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Festin d'Hammerfest",
+			"en": "Hammerfest Feast",
+			"es": "Festín de Hammerfest"
+		},
+		"description": {
+			"fr": "Avec un repas aussi complet, Igor est fin pret pour avoir acces aux patisseries les plus raffinees qui existent.",
+			"en": "After a complete lunch, Igor will now have access to really delicious cakes.",
+			"es": "Tras una comida tan completa, Igor esta al fin listo para acceder a pastelesde exquisito gusto."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [37],
+		"require": [{
+			"id": 209,
+			"val": 1
+		}, {
+			"id": 227,
+			"val": 1
+		}, {
+			"id": 230,
+			"val": 1
+		}, {
+			"id": 244,
+			"val": 1
+		}, {
+			"id": 256,
+			"val": 1
+		}, {
+			"id": 260,
+			"val": 1
+		}, {
+			"id": 281,
+			"val": 1
+		}]
+	},
+	{
+		"id": 24,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Gouter d'anniversaire",
+			"en": "Birthday party",
+			"es": "Merienda de cumpleanos"
+		},
+		"description": {
+			"fr": "Igor a trouve tous les elements pour assurer a son prochain gouter d'anniversaire ! Il trouvera maintenant pleins de petits en-cas pour patienter jusque la.",
+			"en": "Igor has found all the required elements for his next birthday party!From now on he will get even more until that time comes.",
+			"es": "Igor ha encontrado todos los elementos para asegurar una buena meriendade cumpleanos! A partir de ahora podra obtener aun mas dulces para una segunda merienda."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [36],
+		"require": [{
+			"id": 68,
+			"val": 1
+		}, {
+			"id": 122,
+			"val": 10
+		}, {
+			"id": 123,
+			"val": 10
+		}, {
+			"id": 125,
+			"val": 1
+		}, {
+			"id": 133,
+			"val": 1
+		}, {
+			"id": 134,
+			"val": 3
+		}, {
+			"id": 136,
+			"val": 5
+		}, {
+			"id": 137,
+			"val": 5
+		}, {
+			"id": 141,
+			"val": 10
+		}, {
+			"id": 188,
+			"val": 10
+		}]
+	},
+	{
+		"id": 25,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Bon vivant",
+			"en": "Bon vivant",
+			"es": "Vividor"
+		},
+		"description": {
+			"fr": "Un bon repas ne peu se concevoir sans des petits trucs a grignotter a l'aperitif. Igor le sait, maintenant, et il pourra trouver ce qu'il faut en jeu.",
+			"en": "We can't imagin a good lunch without a nice aperitive.Igor knows now what he needs.",
+			"es": "Una buena comida no puede ser concebida sin tomarse antes unas tapas.Ahora Igor conoce bien lo que se necesita para un buen tapeo."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [26],
+		"require": [{
+			"id": 187,
+			"val": 10
+		}, {
+			"id": 199,
+			"val": 10
+		}, {
+			"id": 212,
+			"val": 10
+		}]
+	},
+	{
+		"id": 26,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Fondue norvegienne",
+			"en": "Norwegian fondue",
+			"es": "Fondue noruega"
+		},
+		"description": {
+			"fr": "Les odeurs qui emanent de la taniere d'Igor ne laissent aucun doute la-dessus: il est devenu un grand amateur de fromages. De nouveaux produits laitiers apparaitront dans les cavernes.",
+			"en": "The smells that come from Igor's lair don't leave a doubt about it: he has becomea great lover of cheese. New dairy products will appear now in the caverns.",
+			"es": "Los olores que emanan de la guarida de Igor no dejan ninguna duda: ha caídoen el lado pestoso de los quesos. Ahora apareceran nuevos productos lacteosen las cavernas."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [31],
+		"require": [{
+			"id": 149,
+			"val": 10
+		}, {
+			"id": 175,
+			"val": 10
+		}, {
+			"id": 255,
+			"val": 1
+		}]
+	},
+	{
+		"id": 27,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Mystere de Guu",
+			"en": "Guu's mistery",
+			"es": "Misterio de Guu"
+		},
+		"description": {
+			"fr": "Cette quete n'a aucun interet, a part vous conseiller de decouvrir au plus vite l'excellent dessin anime 'Hare + Guu' disponible en DVD dans toutes les bonnes boutiques ! Banyaaaaaii. ^^",
+			"en": "This quest hasn't any practical use. It's only to suggest to you the greatanime 'Jungle wa itsumo Hare nochi Guu'. Banyaaaaaïï ^__^",
+			"es": "Esta exploracion no tiene ningun interes, solo el de aconsejarte el genialanime 'Jungle wa itsumo Hare nochi Guu'. Banyaaaaaïï ^__^"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 88,
+			"val": 1
+		}, {
+			"id": 99,
+			"val": 1
+		}, {
+			"id": 100,
+			"val": 1
+		}, {
+			"id": 162,
+			"val": 1
+		}]
+	},
+	{
+		"id": 28,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Friandises divines",
+			"en": "Divine sweets",
+			"es": "Chucherías divinas"
+		},
+		"description": {
+			"fr": "Les sucreries n'ont plus aucun secret pour Igor. Il saura, a compter de ce jour, debusquer les delices legendaires de Harry 'le beau' dissemines a travers tout Hammerfest.",
+			"en": "Sweets are no longer a secret to Igor. Now he will be able to collectany of Good-looking Harry's legendary sweets that he finds in Hammerfest!",
+			"es": "Las golosinas ya no son ningun secreto para Igor. Ahora podra arrasar concualquier chuchería legendaria de Harry 'el guapo' que se le presente!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [29],
+		"require": [{
+			"id": 177,
+			"val": 2
+		}, {
+			"id": 202,
+			"val": 2
+		}, {
+			"id": 206,
+			"val": 2
+		}, {
+			"id": 262,
+			"val": 2
+		}, {
+			"id": 269,
+			"val": 2
+		}, {
+			"id": 270,
+			"val": 2
+		}, {
+			"id": 271,
+			"val": 2
+		}, {
+			"id": 272,
+			"val": 2
+		}]
+	},
+	{
+		"id": 29,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Igor et Cortex",
+			"en": "Igor and Cortex",
+			"es": "Igor y Cortex"
+		},
+		"description": {
+			"fr": "Igor a entrepris la fabrication de gadgets mysterieux... Attendez-vous a collectionner des machines etranges en jeu !",
+			"en": "Igor has started to make mysterious gadgets... get ready to collect strangemachines in the game!",
+			"es": "Igor se ha puesto a fabricar cachibaches misteriosos... preparate paracoleccionar maquinas extranas en el juego!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [38],
+		"require": [{
+			"id": 21,
+			"val": 10
+		}, {
+			"id": 26,
+			"val": 10
+		}, {
+			"id": 31,
+			"val": 10
+		}, {
+			"id": 85,
+			"val": 10
+		}, {
+			"id": 90,
+			"val": 10
+		}]
+	},
+	{
+		"id": 30,
+		"light": true,
+		"life": false,
+		"titre": {
+			"fr": "Affronter l'obscurite",
+			"en": "Facing the darkness",
+			"es": "Afrontar la oscuridad"
+		},
+		"description": {
+			"fr": "Igor sait maintenant s'eclairer ! Il pensera maintenant a apporter avec lui une torche pour ne pas trop se perdre dans l'obscurite des niveaux avances !",
+			"en": "Igor has learnt to light himself up! Thanks to this torch he won'tget lost any more in the darkness of the advanced levels!",
+			"es": "Igor ha aprendido a autoiluminarse! Gracias a su antorcha incorporada yano se perdera en la oscuridad de los niveles mas avanzados!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 13,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [14],
+		"require": [{
+			"id": 68,
+			"val": 10
+		}]
+	},
+	{
+		"id": 31,
+		"light": true,
+		"life": false,
+		"titre": {
+			"fr": "Et la lumiere fut !",
+			"en": "And light appeared!",
+			"es": "Y se hizo la luz!"
+		},
+		"description": {
+			"fr": "Prepare a tous les dangers, le courageux Igor ne craint plus du tout l'obscurite dans les niveaux avances !",
+			"en": "Ready for every danger, Igor won't ever be afraid of the darkness ofthe advanced levels!",
+			"es": "Preparado para los peligros de la vida moderna, Igor no temera nunca mas a laoscuridad de los niveles avanzados!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 14,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 26,
+			"val": 10
+		}]
+	},
+	{
+		"id": 32,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Noel sur Hammerfest !",
+			"en": "Christmas in Hammerfest!",
+			"es": "Navidad en Hammerfest!"
+		},
+		"description": {
+			"fr": "Vous avez gagne 5 parties supplementaires.",
+			"en": "You won 5 extra lives!!",
+			"es": "Has ganado 5 vidas extra!!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 15,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [16],
+		"require": [{
+			"id": 109,
+			"val": 1
+		}]
+	},
+	{
+		"id": 33,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Joyeux anniversaire Igor",
+			"en": "Happy birthday Igor",
+			"es": "Feliz cumpleanos Igor"
+		},
+		"description": {
+			"fr": "Vous avez gagne 10 parties supplementaires !",
+			"en": "You won 10 free games!!",
+			"es": "Has ganado 10 partidas gratis!!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 16,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [17],
+		"require": [{
+			"id": 110,
+			"val": 2
+		}]
+	},
+	{
+		"id": 34,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Cadeau celeste",
+			"en": "Celestial present",
+			"es": "Celestial present"
+		},
+		"description": {
+			"fr": "Vous avez gagne 20 parties supplementaires !",
+			"en": "You won 20 free games!!",
+			"es": "Has ganado 20 partidas gratis!!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 17,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 111,
+			"val": 2
+		}]
+	},
+	{
+		"id": 35,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Achat de parties ameliore",
+			"en": "Game purchase enhanced",
+			"es": "Compra de partidas mejorada"
+		},
+		"description": {
+			"fr": "Vos appels dans la boutique vous rapporteront dorenavant plus de flocons !",
+			"en": "From now on, each time you buy games with our payment service, you'llobtain more games for the same price!",
+			"es": "A partir de ahora cada vez que compres partidas con nuestro sistema de pago,obtendras mas partidas que antes por el mismo precio!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 18,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 10,
+			"val": 5
+		}]
+	},
+	{
+		"id": 36,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Exterminateur de Sorbex",
+			"en": "Sorbex exterminator",
+			"es": "Exterminador de Sorbetex"
+		},
+		"description": {
+			"fr": "Vous avez presse sans pitie les Citrons Sorbex !",
+			"en": "You squeezed the Sorbex lemons without mercy!",
+			"es": "Has presionado sin piedad a los limones Sorbetex!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 296,
+			"val": 1
+		}]
+	},
+	{
+		"id": 37,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Desamorceur de Bombinos",
+			"en": "Bombino disposal expert",
+			"es": "Desactivador de Bombinos"
+		},
+		"description": {
+			"fr": "Vous avez survecu aux explosions des Bombinos !",
+			"en": "You survived the Bombinos explosions!",
+			"es": "Has sobrevivido a las explosiones de los Bombinos!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 297,
+			"val": 1
+		}]
+	},
+	{
+		"id": 38,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Tueur de poires",
+			"en": "Pear killer",
+			"es": "Asesino de peras"
+		},
+		"description": {
+			"fr": "Vous avez vaincu un nouveau boss: les Poires-Melbombes !",
+			"en": "You killed a new monster: the Baddybombs Pears!",
+			"es": "Has matado un nuevo monstruo: las Peras Malabombas!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 298,
+			"val": 1
+		}]
+	},
+	{
+		"id": 39,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Mixeur de Tagadas",
+			"en": "Tagadas mixer",
+			"es": "Triturador de Tagada"
+		},
+		"description": {
+			"fr": "Vous n'avez fait qu'une bouchee des Fraises-Tagada !",
+			"en": "You have only had a Tagada-Strawberry mouthful!",
+			"es": "Receta de Batido de fresa: azucar, leche, un huevo y un buen monton deFresas Tagada. Poner nata al final para decorar."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 299,
+			"val": 1
+		}]
+	},
+	{
+		"id": 40,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Kiwi frotte s'y pique",
+			"en": "Kiwi itches! ouch, it scratches!",
+			"es": "Kiwi rasca, vaya como pica..."
+		},
+		"description": {
+			"fr": "Vous avez su eviter tous les pieges des Sapeur-kiwis !",
+			"en": "You knew how to avoid all the traps from the Kiwi Sappers!",
+			"es": "Conseguiste evitar todas las trampas de los Kiwis Zapadores!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 300,
+			"val": 1
+		}]
+	},
+	{
+		"id": 41,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Chasseur de Bondissantes",
+			"en": "Leaping Hunter",
+			"es": "Cazador de Sandinas"
+		},
+		"description": {
+			"fr": "Vous ne vous etes pas laisse impressionner par la meute de Bondissantes !",
+			"en": "Great, you haven't been impressed by the herd of Leapers!",
+			"es": "Estupendo, no te has dejado impresionar por la manada de Sandinas!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 301,
+			"val": 1
+		}]
+	},
+	{
+		"id": 42,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Tronconneur d'Ananargeddons",
+			"en": "Armaggedon-Pineapple Killer",
+			"es": "Aniquilador de Pinaguedones"
+		},
+		"description": {
+			"fr": "Vous etes venu a bout d'un groupe d'Ananargeddons surentraines !",
+			"en": "You have gloriously come to the end of the fight against theArmageddon-Pineapples!",
+			"es": "Llegaste gloriosamente hasta el final en la lucha contra los Pinaguedones!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 302,
+			"val": 1
+		}]
+	},
+	{
+		"id": 43,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Roi de Hammerfest",
+			"en": "Hammerfest King",
+			"es": "Rey de Hammerfest"
+		},
+		"description": {
+			"fr": "Votre perseverance et votre tenacite ont eu raison du sorcier Tuberculoz: vous avez retrouve la carotte de Igor ! Vous debuterez vos prochaines parties avec une vie supplementaire et Igor portera fierement sa carotte preferee.",
+			"en": "You finished the game! Your perseverance and tenacity permitted you todefeat the evil Tuber and to recover Igor's nose. From now on you'llhave an extra life and you'll play with the carrot!",
+			"es": "Te has pasado el juego! Tu perseverancia y tu tenacidad te permitieronderrotar al malvado Tuberculo y recuperar la nariz de Igor. A partir de ahorajugaras siempre con una vida extra y la zanahoria!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": 0,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 102,
+			"val": 1
+		}]
+	},
+	{
+		"id": 44,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Chapelier fou",
+			"en": "Mad hatter",
+			"es": "Sombrero loco"
+		},
+		"description": {
+			"fr": "Igor s'est decouvert une passion nouvelle pour les coiffes. Vous pourrez maintenant appuyer sur la touche 'D' pendant la partie pour changer de deguisement !",
+			"en": "Igor has discovered a mad passion for hats. From now on, disguise Igor by pressing'D' key.",
+			"es": "Igor ha descubierto una nueva pasion por los gorros. Podras a partir de ahoradarle a la tecla 'D' durante la partida para cambiar de disfraz."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": 1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 72,
+			"val": 5
+		}, {
+			"id": 91,
+			"val": 5
+		}, {
+			"id": 92,
+			"val": 10
+		}]
+	},
+	{
+		"id": 45,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Poney eco-terroriste",
+			"en": "Eco-terrorist pony",
+			"es": "Poni eco-terrorista"
+		},
+		"description": {
+			"fr": "Igor a accumule suffisament de richesses pour financer ses activites louches en Hammerfest. Il peut maintenant se deguiser en appuyant sur la touche 'D' pendant la partie ! Et sinon, si ca n'est pas deja fait, avez-vous deja visite www.dinoparc.com ?",
+			"en": "Igor has accumulated enough wealth to finance his terrorist activitiesin Hammerfest. From now on, he will be able to disguise himself by pressing 'D'key during the game! By the way, have you already played www.dinoparc.com?",
+			"es": "Igor ha acumulado suficientes riquezas que le permiten financiar sus actividadesterroristas en Hammerfest. Ahora puede disfrazarse pulsando a la tecla 'D'durante la partida! Por cierto, ¿has jugado ya a www.dinoparc.es?"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": 2,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 95,
+			"val": 3
+		}, {
+			"id": 171,
+			"val": 10
+		}, {
+			"id": 172,
+			"val": 10
+		}]
+	},
+	{
+		"id": 46,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Le Pioupiouz est en toi",
+			"en": "The Pioupiou is in you",
+			"es": "El Pioupiouz esta en ti"
+		},
+		"description": {
+			"fr": "Il fallait s'y attendre: a force de ramasser n'importe quoi, Igor s'est fait gober par un Pioupiou ! Appuyez sur la touche 'D' pendant la partie pour changer de deguisement (au fait, vous connaissiez le site www.pioupiouz.com ?)",
+			"en": "We should have expected that: after collecting no matter what kind of item,Igor has finished by devouring a Pioupiou! Press 'D' key during the game to changefancy dress.",
+			"es": "Había que esperarlo: a base de recoger cualquier cosa, Igor ha acabadodevorando un Píopío! Pulsa la tecla 'D' durante la partida para cambiarde disfraz."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": 3,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 112,
+			"val": 1
+		}]
+	},
+	{
+		"id": 47,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Chasseur de champignons",
+			"en": "Mushrooms hunter",
+			"es": "Cazador de champinones"
+		},
+		"description": {
+			"fr": "Comme son homologue italien (plombier de son etat), Igor a une passion bizarre pour les champignons. Il pourra desormais se deguiser en appuyant sur la touche 'D' pendant la partie !",
+			"en": "Like his Italian counterpart (plumber in a red hat), Igor feels agreat passion for mushrooms! You'll be able from now on to change Igor'sdress during the game by pressing 'D' key.",
+			"es": "Como su homologo italiano (fontanero con gorra roja), Igor siente una gran pasionpor los champinones. Podras a partir de ahora disfrazar a Igor pulsando la tecla'D' durante la partida!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": 4,
+		"key": -1,
+		"family": [19],
+		"require": [{
+			"id": 14,
+			"val": 1
+		}, {
+			"id": 15,
+			"val": 1
+		}, {
+			"id": 16,
+			"val": 1
+		}, {
+			"id": 17,
+			"val": 1
+		}]
+	},
+	{
+		"id": 48,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Successeur de Tuberculoz",
+			"en": "Tuber's successor",
+			"es": "Sucesor de Tuberculo"
+		},
+		"description": {
+			"fr": "Igor semble avoir... change.. Son regard est maintenant plus froid. Il affiche une mine sombre et se cache maintenant sous une grande cape pourpre. Petit a petit, il devient ce qu'il a combattu... Vous pouvez maintenant revetir l'apparence du sorcier Tuberculoz en appuyant sur 'D' pendant la partie !",
+			"en": "It seems like Igor has... changed. His look has become cool. He hidesbehind a great cloak and his face is dark. He's maybe changing little bylittle into the monster who was once his enemy.Disguise Igor as Tuber by pressing 'D' key during the game!",
+			"es": "Parece que Igor ha... cambiado. Su mirada se ha vuelto fría. Se esconde trasuna gran capa marron y ahora su semblante es oscuro. Parece que poco a pocose esta transformando en quien fue su enemigo.Disfrazate de Tuberculo pulsando la tecla 'D' durante la partida!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": 5,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 113,
+			"val": 1
+		}]
+	},
+	{
+		"id": 49,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "La premiere cle !",
+			"en": "The first Key!",
+			"es": "La primera Llave!"
+		},
+		"description": {
+			"fr": "Igor a trouve une sorte de Passe-partout en Bois. Nul doute qu'il ouvre une porte quelque part dans les cavernes...",
+			"en": "Igor has found a Master Key. Undoubtedly, it will open a door somewhere in thecaverns...",
+			"es": "Igor ha encontrado una Llave Maestra de Madera. Sin duda debe de abriruna puerta en algun sitio de las cavernas..."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 1,
+		"family": [43, 45, 46],
+		"require": [{
+			"id": 304,
+			"val": 1
+		}]
+	},
+	{
+		"id": 50,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Rigor Dangerous",
+			"en": "Rigor Dangerous",
+			"es": "Rigor Dangerous"
+		},
+		"description": {
+			"fr": "Vous avez decouvert dans votre aventure une vieille cle rouillee mysterieuse ! Elle comporte une petite mention gravee: 'Rick'. Sans doute son ancien proprietaire...",
+			"en": "You have discovered an old Rusty Key in your adventure!It has a small inscription: 'Rick'. Obviously, this was its previous owner.",
+			"es": "Has descubierto en tu aventura una vieja Llave Oxidada!Contiene una pequena inscripcion: 'Rick'. Sin duda fue su antiguo propietario..."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 2,
+		"family": [],
+		"require": [{
+			"id": 305,
+			"val": 1
+		}]
+	},
+	{
+		"id": 51,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "La Meluzzine perdue",
+			"en": "The lost Meluzin",
+			"es": "La Meluzine perdida"
+		},
+		"description": {
+			"fr": "La Meluzzine, cle legendaire sortie des vieux contes hammerfestiens, ouvre a ce qu'on raconte la porte de grandes richesses. Reste a savoir où ?",
+			"en": "They say that the Meluzin, the legendary key of the ancient Hammerfesttales, opens the door to the greatest wealth. But where is the door?",
+			"es": "La Meluzine, llave legendaria salida de viejos cuentos hammerfestianos,abre segun dicen la puerta a grandes riquezas. Queda por saber donde esta esa puerta..."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 3,
+		"family": [],
+		"require": [{
+			"id": 306,
+			"val": 1
+		}]
+	},
+	{
+		"id": 52,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Enfin le Bourru !",
+			"en": "At last, the drunk man!",
+			"es": "Por fin el borracho!"
+		},
+		"description": {
+			"fr": "Cette etrange petite cle sent le vin.",
+			"en": "Esta extrana pequena llave huele a vino: es la Llave Borracha!",
+			"es": "This strange little key smells of wine: it's the Wine Key!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 41,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 4,
+		"family": [],
+		"require": [{
+			"id": 307,
+			"val": 1
+		}]
+	},
+	{
+		"id": 53,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Congelation",
+			"en": "Frozen",
+			"es": "Congelacion"
+		},
+		"description": {
+			"fr": "Bien qu'etant un bonhomme de neige, Igor lui-meme a du mal a garder cette cle en main, tant le froid qu'elle degage est intense. La porte qu'elle ouvre donne surement sur les endroits les plus recules de Hammerfest.",
+			"en": "Like any other snowman, Igor can't keep a key like this one in his hand.The door that it opens gives access to the most hidden places of Hammerfest.",
+			"es": "Como cualquier otro hombre de nieve, Igor tiene problemas para guardar esta llave enla mano. Esta puerta da acceso a los lugares mas reconditos de Hammerfest."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 5,
+		"family": [],
+		"require": [{
+			"id": 308,
+			"val": 1
+		}]
+	},
+	{
+		"id": 54,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Une cle rouillee",
+			"en": "A rusty key",
+			"es": "Una llave herrumbrosa"
+		},
+		"description": {
+			"fr": "Ce petit bout de ferraille difforme n'a pas l'air d'avoir une grande valeur. Mais il faut parfois ce mefier des apparences ! Qui peut savoir quel genre d'aventure se cache au dela de la porte qu'elle ouvre ?",
+			"en": "This amorphous metallic thing does not seem to be worth a lot. Although,we should not trust appearances! Who knows what adventures hide beyondthe door it opens?",
+			"es": "Este pequeno trozo metalico amorfo no parece tener un gran valor. Sin embargohay que desconfiar de las apariencias! ¿Quien puede saber que clase de aventurase esconde mas alla de la puerta que abrira?"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 6,
+		"family": [],
+		"require": [{
+			"id": 309,
+			"val": 1
+		}]
+	},
+	{
+		"id": 55,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Laissez passer !",
+			"en": "Let it go!",
+			"es": "Dejadlo libre!"
+		},
+		"description": {
+			"fr": "Votre toute puissance administrative sera dorenavant appuyee par le formulaire d'Autorisation du Bois-Joli BJ22a.",
+			"en": "All your administrative power will be backed up by the LovelyWood BJ22aAuthorization Form.",
+			"es": "Todo tu poder administrativo contara con el apoyo del formulario de AutorizacionMadera-Bonita BJ22a."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": 42,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 7,
+		"family": [],
+		"require": [{
+			"id": 310,
+			"val": 1
+		}]
+	},
+	{
+		"id": 56,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Les mondes ardus",
+			"en": "The Arduous Worlds",
+			"es": "Los Mundos Arduos"
+		},
+		"description": {
+			"fr": "Pour avoir atteint le niveau 50 en mode Cauchemar, vous avez gagne la Cle des Mondes Ardus.",
+			"en": "You achieved level 50 in the Nightmare mode! You win the ArduousWorlds Key!",
+			"es": "Debido a que has alcanzado el nivel 50 en el modo Pesadilla, ganas la Llave de los MundosArduos!"
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 8,
+		"family": [],
+		"require": [{
+			"id": 311,
+			"val": 1
+		}]
+	},
+	{
+		"id": 57,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Viiiite !",
+			"en": "Quickly!",
+			"es": "Raaapido!"
+		},
+		"description": {
+			"fr": "Sans trop savoir pourquoi, la Cle Piquante que vous avez trouve vous donne une folle envie de courir partout et de vous rouler en boule.",
+			"en": "You don't really know why, but the Itchy Key you've found, makes yourun and roll everywhere!",
+			"es": "Sin saber muy bien por que, la Llave Que Rasca que has encontrado te da unas ganastremendas de correr por todos lados y rodar como un ovillo."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 9,
+		"family": [],
+		"require": [{
+			"id": 312,
+			"val": 1
+		}]
+	},
+	{
+		"id": 58,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Faire les poches a Tubz",
+			"en": "Empty Tuber's pocket",
+			"es": "Vacíarle los bolsillos a Tuberculo"
+		},
+		"description": {
+			"fr": "Tuberculoz, le vilain sorcier, portait sur lui une cle...",
+			"en": "Tuber, the evil sorcerer, used to have a key...",
+			"es": "Tuberculo, el hechicero malvado, llevaba una llave..."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 10,
+		"family": [],
+		"require": [{
+			"id": 313,
+			"val": 1
+		}]
+	},
+	{
+		"id": 59,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Tuberculoz, seigneur des enfers",
+			"en": "Tuber, Master of Hell",
+			"es": "Tuberculo, senor de los infiernos"
+		},
+		"description": {
+			"fr": "Votre toute puissance et votre maitrise absolue des techniques de combat de Hammerfest vous ont permi de gagner une cle unique en terrassant Tuberculoz en mode Cauchemar !",
+			"en": "Todo tu poder y maestría absoluta de las tecnicas de combate de Hammerfest permitieronque derrotaras al mismísimo Tuberculo en el modo Pesadilla! Gracias a ello eres elprivilegiado poseedor de la Llave Única.",
+			"es": "All your great power and skill in combat techniques gave you thechance to defeat Tuber in the Nightmare mode! You're now the privilegedowner of the Unique Key."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 11,
+		"family": [],
+		"require": [{
+			"id": 314,
+			"val": 1
+		}]
+	},
+	{
+		"id": 60,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "L'eau ferrigineuneuse",
+			"en": "Metallic water",
+			"es": "El agua que sabe a perfume"
+		},
+		"description": {
+			"fr": "Votre exces dans la consommation de boissons alcoolisees vous a permis de debloquer la Cle du Bourru ! Vous aurez maintenant de bonnes chances de la trouver au cours de vos explorations.",
+			"en": "Alcohol abuse is bad for your health, according to the healthauthorities.However, in Hammerfest it has enabled you to unblock the WineKey! From now on, you have a lot of chances of finding it inthe caverns.",
+			"es": "El exceso del consumo de alcohol es perjudicial para la salud. Lo dicen las autoridadessanitarias. Sin embargo, en Hammerfest te ha permitido desbloquear la Llave Borracha!A partir de ahora tienes muchas posibilidades de encontrarla en las cavernas."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [41],
+		"require": [{
+			"id": 323,
+			"val": 20
+		}, {
+			"id": 324,
+			"val": 10
+		}, {
+			"id": 325,
+			"val": 5
+		}, {
+			"id": 326,
+			"val": 3
+		}, {
+			"id": 327,
+			"val": 2
+		}]
+	},
+	{
+		"id": 61,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Paperasse administrative",
+			"en": "Paperwork",
+			"es": "Papeleo"
+		},
+		"description": {
+			"fr": "Igor est un maitre dans l'art de remplir des formulaires administratifs. Il trouvera donc sans probleme bientôt l'Autorisation du Bois-Joli dans les dedales des cavernes...",
+			"en": "Igor is an expert in filling in administrative forms. You'll soonfind the LovelyWood BJ22a Authorization Form in the caverns.",
+			"es": "Igor es un maestro en el arte de rellenar formularios administrativos.Pronto podras encontrar la Autorizacion Madera-bonita BJ22a en las cavernas."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [42],
+		"require": [{
+			"id": 328,
+			"val": 10
+		}, {
+			"id": 329,
+			"val": 15
+		}, {
+			"id": 330,
+			"val": 3
+		}, {
+			"id": 331,
+			"val": 2
+		}, {
+			"id": 332,
+			"val": 1
+		}]
+	},
+	{
+		"id": 62,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Meilleur joueur",
+			"en": "Best Player",
+			"es": "Mejor jugador"
+		},
+		"description": {
+			"fr": "Le meilleur joueur du net, c'est vous, plus personne n'a de doute la dessus ! Votre collection de manettes de jeu fera sans nul doute des envieux ^^ Igor dispose maintenant de l'option Tornade qui procure un boost de vitesse au debut de chaque partie, quelques soient les options choisies !",
+			"en": "The best videogame player is you, there's no doubt about it! Yourcontrol pads collection is enviable! From now on, Igor has a speed bonusat the beginning of each game.",
+			"es": "El mejor jugador de videojuegos eres tu, sin ninguna duda! Tu coleccion demandos de consola es envidiable!A partir de ahora Igor posee desde el principio de cada partida un bonus en rapidez."
+		},
+		"option": 0,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 315,
+			"val": 1
+		}, {
+			"id": 316,
+			"val": 1
+		}, {
+			"id": 317,
+			"val": 1
+		}, {
+			"id": 318,
+			"val": 1
+		}, {
+			"id": 319,
+			"val": 1
+		}, {
+			"id": 320,
+			"val": 1
+		}, {
+			"id": 321,
+			"val": 1
+		}, {
+			"id": 322,
+			"val": 1
+		}]
+	},
+	{
+		"id": 63,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Miroir, mon beau miroir",
+			"en": "Mirror, my beautiful mirror",
+			"es": "Espejo, mi bonito espejo"
+		},
+		"description": {
+			"fr": "Le Miroir Bancal que vous avez trouve en jeu vous permet maintenant de voir les choses sous un angle nouveau. L'option de jeu 'Miroir' a ete debloquee !",
+			"en": "The Bancal Mirror you have found in the game shows you things fromanother point of view. The extra option 'Mirror' has been unblocked!",
+			"es": "El Espejo Bancal que has encontrado en el juego te permite ahora ver las cosas desdeun angulo diferente. La opcion suplementaria de juego 'Espejo' ha sido desbloqueada!"
+		},
+		"option": 1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 333,
+			"val": 1
+		}]
+	},
+	{
+		"id": 64,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Mode cauchemar",
+			"en": "Nightmare mode",
+			"es": "Modo pesadilla"
+		},
+		"description": {
+			"fr": "Vous etes doue. Surement tres doue meme... Mais saurez-vous aider Igor en mode Cauchemar ? Cette option a ete debloquee !",
+			"en": "You're talented. Very talented... but, are you able to help Igorin the Nightmare mode? This new option has been unblocked!",
+			"es": "Tienes talento. Mucho talento... pero ¿serías capaz de ayudar a Igor en el modo Pesadilla?Esta opcion ha sido desbloqueada!"
+		},
+		"option": 2,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 334,
+			"val": 1
+		}]
+	},
+	{
+		"id": 65,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "L'aventure continue !",
+			"en": "The adventure continues!",
+			"es": "La aventura continua!"
+		},
+		"description": {
+			"fr": "Le conseil des Carotteux vous a choisi pour explorer plus en avant les cavernes de Hammerfest. La Cle de Gordon est une premiere etape dans cette nouvelle mission.",
+			"en": "The Carrotian Council has chosen you to explore theCaverns of Hammerfest in-depth. The Gordon's Key is only the first step ofa new great mission...",
+			"es": "El consejo de los Zanahorios y Panteonianos te ha elegido para explorar con mas atencion las Cavernasde Hammerfest. La Llave de Gordon es tan solo la primera etapa de una nueva mision."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 0,
+		"family": [],
+		"require": [{
+			"id": 117,
+			"val": 1
+		}]
+	},
+	{
+		"id": 66,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Joyau d'Ankhel",
+			"en": "Ankhel Jewel",
+			"es": "Joya de Ankhel"
+		},
+		"description": {
+			"fr": "Vous avez fait preuve d'une dexterite et d'une perspicacite sans egal en retrouvant le Joyau d'Ankhel. L'option Controle du Ballon a ete debloquee pour le mode SoccerFest !",
+			"en": "You have shown your great ability and dexterity in finding the Ankhel Jewel.The Advanced Ball Control option has been unblocked in the Soccerfest mode game!",
+			"es": "Has hecho prueba de una habilidad y perspicacia sin igual al encontrar la Joya de Ankhel.La opcion Control Avanzado del Balon ha sido desbloqueada en el modo Futbolfest!"
+		},
+		"option": 3,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 116,
+			"val": 1
+		}]
+	},
+	{
+		"id": 67,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Sandy commence l'aventure !",
+			"en": "Sandy's adventure begins!",
+			"es": "Sandy comienza la aventura!"
+		},
+		"description": {
+			"fr": "Tous les elements sont reunis pour donner naissance a Sandy, le bonhomme de sable ! Ce nouveau personnage pourra se joindre a vous dans le mode Multi Cooperatif, jouable a deux sur le meme ordinateur. Re-decouvrez la grande aventure avec un ami !",
+			"en": "You’ve got all the necessary elements to bring Sandy the Sandman to life! This new character can join you in the Adventure Mode (Two players mode on the same computer).",
+			"es": "Todos los elementos han sido reunidos para en fin dar vida a Sandy,el hombre de arena! Este nuevo personaje podra unirse a ti en el modoCooperativo, disponible para dos jugadores en el mismo ordenador.Re-descubre la gran aventura con un amigo!"
+		},
+		"option": -1,
+		"mode": 1,
+		"remove": 48,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 334,
+			"val": 5
+		}, {
+			"id": 336,
+			"val": 10
+		}, {
+			"id": 337,
+			"val": 5
+		}, {
+			"id": 338,
+			"val": 3
+		}]
+	},
+	{
+		"id": 68,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Miroir, NOTRE beau miroir",
+			"en": "Mirror, OUR beautiful mirror",
+			"es": "Espejo, NUESTRO bonito espejo"
+		},
+		"description": {
+			"fr": "Avec le Miroir des Sables, vous pouvez maintenant voir les choses sous un angle nouveau mais a deux ! L'option de jeu 'Miroir' a ete debloquee pour le mode Multi Cooperatif !",
+			"en": "You can now see things from a different angle with your friend. The game option 'Mirror' has been added to the Two Players game mode.",
+			"es": "Con el Espejo de las Arenas, puedes ver la cosas desde nuevo angulo...y con un amigo! La opcion de juego 'Espejo' ha sido desbloqueadapara el modo Cooperativo."
+		},
+		"option": 4,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 339,
+			"val": 1
+		}]
+	},
+	{
+		"id": 69,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Mode double cauchemar",
+			"en": "Double-nightmare option",
+			"es": "Modo Doble Pesadilla"
+		},
+		"description": {
+			"fr": "De toute evidence, vous etes capables de grandes choses a deux ! L'option de jeu 'Cauchemar' a ete debloquee pour le mode Multi Cooperatif !",
+			"en": "It is evident that you are able to do great things together with a friend! The game option 'Nightmare' has been added to the Two Players game mode.",
+			"es": "Esta claro que eres capaz de llegar lejos cuando estas acompanado!La opcion de juego 'Pesadilla' ha sido desbloqueada para el modo Cooperativoooooo."
+		},
+		"option": 5,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 340,
+			"val": 1
+		}]
+	},
+	{
+		"id": 70,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Une grande Amitie",
+			"en": "A great Friendship",
+			"es": "Una gran Amistad"
+		},
+		"description": {
+			"fr": "Mieux vaut tard que jamais ! Igor et Sandy ont enfin compris qu'il valait mieux s'entraider s'ils voulaient survivre a deux dans les Cavernes de Hammerfest. L'option de jeu 'Partage de vies' a ete debloquee pour le mode Multi Cooperatif ! Si cette option est activee, lorsqu'un joueur perd sa derniere vie, il en prend une au second joueur et peut ainsi continuer la partie !",
+			"en": "Better late than never! Igor and Sandy have finally understood the importance of staying together in order to survive in the Caverns. The game option 'Lives sharing' has been unblocked for the Two Players mode! With this option enabled, if a player loses his latest life, he will take a life from the second player and then he will be able to continue playing!",
+			"es": "Mas vale tarde que nunca! Igor y Sandy han comprendido que es mejortrabajar juntos para sobrevivir en las Cavernas. La opcion de juego'Compartir vidas' ha sido desbloqueada para el modo Cooperativo. Siesta opcion es activada, cuando un jugador pierde su ultima vida,utiliza una del segundo jugador para poder continuar la partida."
+		},
+		"option": 6,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 341,
+			"val": 2
+		}]
+	},
+	{
+		"id": 71,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Apprentissage des canifs volants",
+			"en": "Learning how to launch Shurikens",
+			"es": "Aprendizaje de lanzamiento shurikens"
+		},
+		"description": {
+			"fr": "A toujours sauter partout, Igor a fini par acquerir une souplesse digne d'un ninja et une dexterite hors du commun ! Mais pour prouver sa valeur, il doit maintenant collecter les artefacts ninjas disperses en Hammerfest !",
+			"en": "umping and jumping around has improved Igor's agility and now he's turning into a ninja! In order to prove his courage, he must collect all the ninja items hidden in Hammerfest!",
+			"es": "De tanto saltar Igor ha desarrollado una habilidad digna de un gran ninja...Para probar su talento, debera recoger artefactos ninja dispersados en lascavernas."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 342,
+			"val": 1
+		}]
+	},
+	{
+		"id": 72,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Shinobi do !",
+			"en": "Shinobi do!",
+			"es": "Shinobi do!"
+		},
+		"description": {
+			"fr": "Igor a rempli sa quete initiatique et maitrise maintenant a la perfection un grand nombre d'armes du Ninjutsu ! Mais comme son nouveau de l'honneur le lui interdit, il ne pourra pas s'en servir. Toutefois, il pourra mettre a l'epreuve ses competences grâce a l'option de jeu 'Ninjutsu' qu'il vient de debloquer pour le mode Aventure !",
+			"en": "Igor has completed his starting quest and now he's a grand master of Ninjutsu weapons! Nevertheless, his Code of Honour prevents him from using them. Although now he will be able to test his skills in the 'Ninjutsu' game mode he has unblocked!",
+			"es": "Igor ha terminado la exploracion de iniciacion en la vía del Ninjutsu!Gracias a ello la opcion de juego 'Ninjutsu' ha sido desbloqueada parael modo Aventura."
+		},
+		"option": 7,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 343,
+			"val": 5
+		}, {
+			"id": 344,
+			"val": 2
+		}, {
+			"id": 345,
+			"val": 7
+		}, {
+			"id": 346,
+			"val": 7
+		}, {
+			"id": 347,
+			"val": 1
+		}, {
+			"id": 348,
+			"val": 1
+		}, {
+			"id": 349,
+			"val": 1
+		}]
+	},
+	{
+		"id": 73,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Rapide comme l'eclair !",
+			"en": "As quick as the lightning!",
+			"es": "Rapido como el rayo..."
+		},
+		"description": {
+			"fr": "Igor est imbattable des lors qu'il s'agit de viser juste et se deplacer avec precision... Il faut maintenant le prouver aux autres ! Le mode TIME ATTACK est debloque et vous ouvre en plus l'acces a un nouveau classement sur le site. Soyez le bonhomme de neige le plus rapide de tout Hammerfest !",
+			"en": "Igor is unbeatable when he needs to move fast. He now has to prove it to the others! The TIME ATTACK mode and its ranking have been unblocked. Be the fastest snowman in all Hammerfest!",
+			"es": "Igor es imbatible para apuntar y lanzar con precision...Ahora hay que probarselo a todo el mundo! El modo CONTRARRELOJ ha sido desbloqueadoy te ofrece la posibilidad de acceder a la nueva clasificacion CONTRARRELOJ.Ya puedes ser el muneco de nieve mas rapido de Hammerfest!"
+		},
+		"option": 9,
+		"mode": 0,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 350,
+			"val": 100
+		}]
+	},
+	{
+		"id": 74,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Maitre des Bombes",
+			"en": "Bomb Master",
+			"es": "Maestro de Bombas"
+		},
+		"description": {
+			"fr": "Vous etes l'expert repute dans tout Hammerfest en matiere d'explosifs. Et pour montrer qu'on ne vous ne la fait pas, a vous, l'option 'Explosifs instables' a ete debloquee pour le mode Aventure ! Gare a TOUT ce qui explose en jeu ! De plus, vous pouvez pousser toutes vos bombes plus loin en avancant en meme temps que vous la frappez.",
+			"en": "You are a well-known expert in explosive material. To demonstrate this to everybody, you can now enable the 'Unstable explosives' option in the Adventure mode. Pay attention to everything that explodes in the game! You can also push the bombs farther and move while you hit them.",
+			"es": "Eres el mayor experto en materia explosiva de la region de Hammerfest. La opcion 'Explosivos inestables' ha sido desbloqueada para el modo Aventura.Ademas, tambien podras empujar las bombas mas lejos al mismo tiempo que avanzasy golpeas."
+		},
+		"option": 8,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": -1,
+		"family": [],
+		"require": [{
+			"id": 351,
+			"val": 1
+		}]
+	},
+	{
+		"id": 75,
+		"light": false,
+		"life": false,
+		"titre": {
+			"fr": "Tombeau de Tuberculoz",
+			"en": "Tuber's tomb",
+			"es": "Tumba de Tuberculo"
+		},
+		"description": {
+			"fr": "Vous avez decouvert une etrange pyramide de poche dans le tombeau de Tuberculoz.",
+			"en": "You have discovered a bizarre pocket-size pyramid in Tuber's tomb.",
+			"es": "Has descubierto una extrana piramide de bolsillo en la tumba de Tuberculo."
+		},
+		"option": -1,
+		"mode": -1,
+		"remove": -1,
+		"bombe": false,
+		"bombeUp": false,
+		"disguise": -1,
+		"key": 12,
+		"family": [],
+		"require": [{
+			"id": 352,
+			"val": 1
+		}]
+	}
+]

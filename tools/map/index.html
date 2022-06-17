@@ -1,0 +1,200 @@
+<html>
+    <body>
+        <div id="app">
+            Name <input type="text" v-model="name" /><br />
+            <input type="number" min="1" v-model="size.x" /> X / <input type="number" min="1" v-model="size.y" /> Y<br />
+            TileType
+            <select v-model="selectedType">
+                <option v-for="(tiledata, tiletype) in types" :value="tiletype">{{tiletype}}</option>
+            </select>
+            <span v-if="selectedTypeData.x != undefined">X <input type="number" v-model.number="selectedTypeData.x" min="0" /></span>
+            <span v-if="selectedTypeData.y != undefined">Y <input type="number" v-model.number="selectedTypeData.y" min="0" /></span>
+            <span v-if="selectedTypeData.team">team <input type="number" v-model.number="selectedTypeData.team" min="1" max="2" /></span>
+            <span v-if="selectedTypeData.sign != undefined">Sign <input type="text" v-model="selectedTypeData.sign" /></span>
+            <br />
+            <svg :width="tilesize * size.x" :height="tilesize * size.y">
+                <template v-for="(tilesX, x) in tiles">
+                    <template v-for="(tile, y) in tilesX">
+                        <rect
+                            :x="x * tilesize"
+                            :y="y * tilesize"
+                            :width="tilesize"
+                            :height="tilesize"
+                            :style="getStyle(tile)"
+                            @mousedown="downTile(x, y)"
+                            @mouseover="overTile(x, y)"
+                            @mouseup="upTile(x, y)"
+                        />
+                    </template>
+                </template>
+                <template v-for="(tilesX, x) in tiles">
+                    <template v-for="(tile, y) in tilesX">
+                        <line
+                            v-if="tile.type == 'warp'"
+                            :x1="tilesize * (x + 0.5)"
+                            :y1="tilesize * (y + 0.5)"
+                            :x2="tilesize * (tile.x + 0.5)"
+                            :y2="tilesize * (tile.y + 0.5)"
+                            style="stroke: rgb(255, 0, 0); stroke-width: 2"
+                        />
+                    </template>
+                </template>
+                <circle
+                    :cx="tilesize * playerSpawn.x"
+                    :cy="tilesize * playerSpawn.y"
+                    :r="tilesize / 2"
+                    stroke="black"
+                    stroke-width="1"
+                    fill="rgb(61, 206, 81)"
+                />
+                <circle
+                    v-for="ballSpawn in ballSpawns"
+                    :cx="tilesize * ballSpawn.x"
+                    :cy="tilesize * ballSpawn.y"
+                    :r="tilesize / 2"
+                    stroke="black"
+                    stroke-width="1"
+                    fill="rgb(247, 245, 116)"
+                />
+            </svg>
+            <br />
+            Mouse : {{mouse.x}}/{{mouse.y}} <br />
+            Tilesize
+            <input type="number" min="1" v-model.number="tilesize" /><br />
+            Player <input type="number" v-model.number="playerSpawn.x" /> X / <input type="number" v-model.number="playerSpawn.y" /> Y<br />
+            ballSpawns
+            <ul>
+                <li v-for="(ballSpawn, index) in ballSpawns">
+                    <input type="number" v-model.number="ballSpawn.x" /> X / <input type="number" v-model.number="ballSpawn.y" /> Y
+                    <button @click="removeBall(index)">-</button>
+                </li>
+                <li>
+                    <button @click="addBall">+</button>
+                </li>
+            </ul>
+            <textarea v-model="informations"></textarea>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script>
+            window.onload = () => {
+                new Vue({
+                    el: "#app",
+                    data: {
+                        name: "",
+                        mouseDown: false,
+                        tiles: [],
+                        ballSpawns: [{ x: 0, y: 0 }],
+                        playerSpawn: { x: 0, y: 0 },
+                        selectedType: "block",
+                        types: {
+                            blank: {},
+                            block: { type: "block" },
+                            warp: { type: "warp", x: 0, y: 0 },
+                            goal: { type: "goal", team: 1 },
+                            sign: { type: "sign", sign: "" },
+                        },
+                        tilesize: 20,
+                        size: { x: 20, y: 25 },
+                        mouse: { x: 0, y: 0 },
+                    },
+                    mounted() {
+                        this.setMap()
+                    },
+                    methods: {
+                        setMap() {
+                            var newTiles = []
+
+                            for (var i = 0; i < this.size.x; i++) {
+                                newTiles[i] = []
+                                for (var j = 0; j < this.size.y; j++) {
+                                    if (this.tiles[i] && this.tiles[i][j]) {
+                                        newTiles[i].push(this.tiles[i][j])
+                                    } else {
+                                        newTiles[i].push({})
+                                    }
+                                }
+                            }
+
+                            this.tiles = newTiles
+                        },
+                        getStyle(block) {
+                            var style
+                            switch (block.type) {
+                                case "block":
+                                    style = "rgb(0, 0, 0)"
+                                    break
+                                case "warp":
+                                    style = "rgb(179, 66, 244)"
+                                    break
+                                case "goal":
+                                    style = block.team == 1 ? "rgb(65, 137, 244)" : "rgb(244, 73, 65)"
+                                    break
+                                case "sign":
+                                    style = "rgb(119, 58, 4)"
+                                    break
+                                default:
+                                    style = "rgb(255, 255, 255)"
+                            }
+
+                            return `fill:${style};stroke-width:1;stroke:rgb(0,0,0)`
+                        },
+                        overTile(x, y) {
+                            this.mouse = { x, y }
+                            if (this.mouseDown) {
+                                this.$set(this.tiles[x], y, JSON.parse(JSON.stringify(this.types[this.selectedType])))
+                            }
+                        },
+                        downTile(x, y) {
+                            this.mouseDown = true
+                            this.mouse = { x, y }
+                            this.$set(this.tiles[x], y, JSON.parse(JSON.stringify(this.types[this.selectedType])))
+                        },
+                        upTile(x, y) {
+                            this.mouseDown = false
+                        },
+                        addBall() {
+                            this.ballSpawns.push({ x: 0, y: 0 })
+                        },
+                        removeBall(index) {
+                            this.ballSpawns.splice(index, 1)
+                        },
+                    },
+                    computed: {
+                        selectedTypeData() {
+                            return this.types[this.selectedType]
+                        },
+                        informations: {
+                            get() {
+                                return JSON.stringify({
+                                    tiles: this.tiles,
+                                    ballSpawns: this.ballSpawns,
+                                    playerSpawn: this.playerSpawn,
+                                })
+                            },
+                            set(value) {
+                                try {
+                                    var json = JSON.parse(value)
+                                    this.tiles = json.tiles
+                                    this.playerSpawn = json.playerSpawn
+                                    this.ballSpawns = json.ballSpawns
+                                    this.size = {
+                                        x: this.tiles.length,
+                                        y: this.tiles[0].length,
+                                    }
+                                } catch (e) {}
+                            },
+                        },
+                    },
+                    watch: {
+                        size: {
+                            handler(newValue) {
+                                this.setMap()
+                            },
+                            deep: true,
+                        },
+                    },
+                })
+            }
+        </script>
+    </body>
+</html>
