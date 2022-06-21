@@ -13,7 +13,9 @@ export default class {
         Object.assign(this, json)
     }
 
-    onStart() {}
+    onStart() {
+        this._keys = {}
+    }
 
     update() {}
 

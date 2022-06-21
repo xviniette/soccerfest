@@ -24,9 +24,9 @@ export default class {
         this.score = { 1: 0, 2: 0 }
 
         this.STATES = {
-            WARMUP: 5 * 60,
+            WARMUP: 10 * 60,
             PLAYING: 5 * 60 * 60,
-            END: 10,
+            END: 5 * 60,
         }
 
         this.seed = 0
@@ -59,7 +59,7 @@ export default class {
 
         this.tick++
 
-        if (this.stateTime >= 0) this.stateTime--
+        if (this.stateTime > 0) this.stateTime--
 
         switch (this.state) {
             case "WARMUP":
@@ -101,7 +101,9 @@ export default class {
             }
         })
 
-        this.getEntities("player").forEach(e => e.update())
+        this.getEntities("player")
+            .filter(player => !player.isSpectator())
+            .forEach(e => e.update())
         this.getEntities("bomb").forEach(e => e.update())
         this.getEntities("ball").forEach(e => e.update())
         this.getEntities("particle").forEach(e => e.update())

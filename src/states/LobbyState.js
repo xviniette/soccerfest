@@ -16,10 +16,18 @@ export default class extends State {
             if (this.isHost()) this.addPlayer({ peerId: data.peer.id })
         })
 
-        this.game.peers.on("lobby-close", data => (this.isHost() ? this.removePlayer(data.peer.id) : this.setState("home")))
+        this.game.peers.on("lobby-close", data => {
+            if (this.isHost()) {
+                this.removePlayer(data.peer.id)
+            } else {
+                this.reset()
+            }
+        })
 
         this.game.peers.on("lobby-message", data => {
             const { type, ...message } = JSON.parse(data.event.data)
+
+            const player = this.players.find(player => player.peerId == data.peer.id)
 
             switch (type) {
                 case "lobby":
@@ -33,13 +41,22 @@ export default class extends State {
                     break
 
                 case "update":
-                    const player = this.players.find(player => player.peerId == data.peer.id)
                     if (player) this.setPlayerData(player.clientId, message.data)
                     break
 
                 case "start":
                     if (this.isHost()) return
                     this.setState("game", message.data)
+                    break
+
+                case "ping":
+                    if (player) this.setPlayerData(player.clientId, message.data)
+
+                    this.sendTo(player.clientId, { type: "pong", timestamp: message.timestamp })
+                    break
+
+                case "pong":
+                    this.sendUpdateToHost({ ping: Date.now() - message.timestamp })
                     break
             }
         })
@@ -59,6 +76,10 @@ export default class extends State {
         this.onKeyDown("ArrowDown", () => this.isActive() && this.setMap(-1))
         this.onKeyDown("Enter", () => this.isActive() && this.startGame())
         this.onKeyDown("KeyP", () => this.isActive() && this.isHost() && this.game.peers.setPeer({ caller: true }))
+
+        setInterval(() => {
+            this.sendTo(this.host, { type: "ping", timestamp: Date.now() })
+        }, 1000)
     }
 
     onStart({ lobby }) {
@@ -66,21 +87,28 @@ export default class extends State {
     }
 
     set(lobby) {
-        this.clientIdIncrement = 0
-        this.clientId
-        this.host
-        this.players = []
-        this.map = maps[0].id
+        if (!this.hasJoined()) {
+            this.clientIdIncrement = 0
+            this.clientId
+            this.host
+            this.players = []
+            this.map = maps[0].id
 
-        this.clipboard = 0
+            this.clipboard = 0
 
-        if (lobby) {
-            this.game.peers.setPeer(JSON.parse(JSONCrush.uncrush(lobby)))
-        } else {
-            const p = this.addPlayer({ name: this.game.settings.name, host: true })
-            this.clientId = p.clientId
-            this.host = this.clientId
+            if (lobby) {
+                this.game.peers.setPeer(JSON.parse(JSONCrush.uncrush(lobby)))
+            } else {
+                const p = this.addPlayer({ name: this.game.settings.name, host: true })
+                this.clientId = p.clientId
+                this.host = this.clientId
+            }
         }
+    }
+
+    reset() {
+        this.host = null
+        this.set()
     }
 
     hasJoined() {
@@ -88,11 +116,11 @@ export default class extends State {
     }
 
     isHost() {
-        return this.host != null && this.host == this.clientId
+        return this.hasJoined() && this.host == this.clientId
     }
 
     getPlayer(clientId) {
-        return this.players.find(player => player.clientId == clientId)
+        return this.players?.find(player => player.clientId == clientId)
     }
 
     addPlayer(data) {
@@ -101,7 +129,7 @@ export default class extends State {
             red: this.players.filter(player => player.team == 1).length,
         }
 
-        const player = { clientId: this.clientIdIncrement++, team: nbPlayers.blue > nbPlayers.red ? 1 : -1, ...data }
+        const player = { clientId: this.clientIdIncrement++, ping: 0, team: nbPlayers.blue > nbPlayers.red ? 1 : -1, ...data }
         this.players.push(player)
         this.sendLobby()
         return player
@@ -115,27 +143,20 @@ export default class extends State {
     startGame() {
         if (!this.isHost()) return
 
-        const players = this.players
-            .filter(player => player.team != 0)
-            .map(({ name, team, clientId, peerId }) => ({ name, team: team < 0 ? 1 : team > 0 ? 2 : 0, clientId, peerId }))
+        const players = this.players.map(({ name, team, clientId, peerId }) => ({ name, team: team < 0 ? 1 : team > 0 ? 2 : 0, clientId, peerId }))
+
         this.setState("game", { map: this.map, players, serverId: this.host, clientId: this.clientId })
 
-        this.players.forEach(
-            player =>
-                player.peerId &&
-                this.game.peers.sendTo(
-                    player.peerId,
-                    JSON.stringify({
-                        type: "start",
-                        data: {
-                            map: this.map,
-                            players: players.map(p => ({ ...p, peerId: p.clientId == this.host ? p.peerId : null })),
-                            serverId: this.host,
-                            clientId: player.clientId,
-                        },
-                    }),
-                    "lobby"
-                )
+        this.players.forEach(player =>
+            this.sendTo(player.clientId, {
+                type: "start",
+                data: {
+                    map: this.map,
+                    players: players.map(p => ({ ...p, peerId: p.clientId == this.host ? p.peerId : null })),
+                    serverId: this.host,
+                    clientId: player.clientId,
+                },
+            })
         )
     }
 
@@ -161,15 +182,21 @@ export default class extends State {
         this.sendUpdateToHost({ team })
     }
 
+    sendTo(clientId, data = {}) {
+        const player = this.getPlayer(clientId)
+        if (!player) return
+
+        this.game.peers.sendTo(player.peerId, JSON.stringify(data), "lobby")
+    }
+
     sendUpdateToHost(data) {
         if (this.isHost()) return
 
-        this.game.peers.sendTo(this.getPlayer(this.host)?.peerId, JSON.stringify({ type: "update", data }), "lobby")
+        this.sendTo(this.host, { type: "update", data })
     }
 
     setPlayerData(clientId, data) {
         if (!this.isHost()) return
-
         Object.assign(this.getPlayer(clientId), data)
         this.sendLobby()
     }
@@ -177,22 +204,16 @@ export default class extends State {
     sendLobby() {
         if (!this.isHost()) return
 
-        this.players.forEach(
-            player =>
-                player.peerId &&
-                this.game.peers.sendTo(
-                    player.peerId,
-                    JSON.stringify({
-                        type: "lobby",
-                        data: {
-                            players: this.players,
-                            map: this.map,
-                            host: this.host,
-                            clientId: player.clientId,
-                        },
-                    }),
-                    "lobby"
-                )
+        this.players.forEach(player =>
+            this.sendTo(player.clientId, {
+                type: "lobby",
+                data: {
+                    players: this.players,
+                    map: this.map,
+                    host: this.host,
+                    clientId: player.clientId,
+                },
+            })
         )
     }
 
@@ -256,7 +277,7 @@ export default class extends State {
 
         ctx.fillStyle = "#ffffff"
 
-        ctx.font = `${Math.min(canvas.height * 0.05, canvas.width * 0.04)}px Arial`
+        ctx.font = `${Math.min(canvas.height * 0.04, canvas.width * 0.03)}px Arial`
 
         ctx.textBaseline = "top"
         this.players.forEach((player, index) => {

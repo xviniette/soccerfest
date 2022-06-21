@@ -18,6 +18,8 @@ export default class extends State {
     }
 
     onStart({ map, players, serverId, clientId }) {
+        super.onStart()
+
         const { peers } = this.game
         this.world = new World()
         this.world.setMap(map)
@@ -41,7 +43,13 @@ export default class extends State {
         if (this.netcode.isServer()) this.netcode.start()
 
         this.game.assets.music.loop = true
+        this.game.assets.music.volume = 0.5
         this.game.assets.music.play()
+    }
+
+    onEnd() {
+        this.game.assets.music.pause()
+        this.game.assets.music.currentTime = 0
     }
 
     getInputs() {
@@ -71,6 +79,10 @@ export default class extends State {
             world: this.world,
             assets: this.game.assets,
         })
+
+        if (this.world.state == "END" && this.world.isStateOver()) {
+            this.setState("lobby")
+        }
     }
 
     render({ game, online, world, assets }) {
@@ -99,39 +111,41 @@ export default class extends State {
 
             switch (event.type) {
                 case "jump":
-                    this.playSound("jump")
+                    this.playSound("jump", 0.5)
                     break
                 case "explosion":
                     this.addTrauma(0.5)
-                    this.playSound("bomb_audio")
+                    this.playSound("bomb_audio", 0.5)
                     break
                 case "warp":
-                    this.playSound("warp")
+                    this.playSound("warp", 0.5)
                     break
                 case "kick":
-                    this.playSound("kick")
+                    this.playSound("kick", 0.5)
                     // this.addTrauma(0.2)
                     break
                 case "up":
                     // this.addTrauma(0.2)
-                    this.playSound("up")
+                    this.playSound("up", 0.5)
                     break
                 case "spawn":
-                    this.playSound("pop")
+                    this.playSound("pop", 0.5)
                     this.addTrauma(0.1)
 
                     break
                 case "goal":
                     this.addTrauma(0.5)
-                    this.playSound("goal")
+                    this.playSound("goal", 0.5)
                     break
             }
         })
     }
 
-    playSound(name) {
+    playSound(name, volume = 1) {
         if (!this.game.assets[name]) return
-        this.game.assets[name].cloneNode(false).play()
+        const clone = this.game.assets[name].cloneNode(false)
+        clone.volume = volume
+        clone.play()
     }
 
     drawSprite(x, y, width, height, asset, animations, options = {}) {
@@ -306,21 +320,26 @@ export default class extends State {
         ctx.textAlign = "center"
         ctx.font = `20px Arial`
 
-        ctx.fillStyle = "#ffffff"
-        ctx.fillText(this.timeFormat(world.stateTime), canvas.width * 0.5, 20)
+        ctx.textBaseline = "top"
+        ctx.font = `${canvas.height * 0.05}px Arial`
 
-        ctx.fillText(world.score[1], canvas.width * 0.33, 30)
-        ctx.fillText(world.score[2], canvas.width * 0.66, 30)
+        ctx.fillStyle = "#ffffff"
+        if (world.stateTime < 5 * 60) ctx.fillStyle = "#ff0000"
+        ctx.fillText(this.timeFormat(world.stateTime), canvas.width * 0.5, 0)
+
+        ctx.textAlign = "left"
+        ctx.fillStyle = "#649cf5"
+        ctx.fillText(world.score[1], canvas.width * 0, 0)
+        ctx.textAlign = "right"
+        ctx.fillStyle = "#f58b64"
+        ctx.fillText(world.score[2], canvas.width * 1, 0)
 
         ctx.textAlign = "left"
         if (this.netcode.serverId != this.netcode.clientId) {
             ctx.fillText(`${Math.round(this.netcode.getClient(this.netcode.serverId).ping)}ms`, 0, 20)
         }
 
-        ctx.fillText(`Sync : ${this.netcode.isSync()}`, 0, 40)
-
-        if (this.world.state == "end") {
-            if (this.world.isStateOver()) this.setState("lobby")
+        if (this.world.state == "END") {
             ctx.fillStyle = "#ffffff"
             let text = "Draw"
 
@@ -334,6 +353,9 @@ export default class extends State {
                 text = "Red team won"
             }
 
+            ctx.textAlign = "center"
+            ctx.textBaseline = "middle"
+            ctx.font = `${canvas.height * 0.2}px Arial`
             ctx.fillText(text, canvas.width * 0.5, canvas.height * 0.5)
         }
     }
