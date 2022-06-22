@@ -17,11 +17,11 @@ export default class extends State {
         this.game.peers.on("netcode-message", data => this.netcode && this.netcode.onData(data.peer.id, data.event.data))
     }
 
-    onStart({ map, players, serverId, clientId }) {
+    onStart({ map, players, serverId, clientId, seed }) {
         super.onStart()
 
         const { peers } = this.game
-        this.world = new World()
+        this.world = new World({ seed: seed || 0 })
         this.world.setMap(map)
         players.forEach(player => this.world.addPlayer({ ...player }))
 

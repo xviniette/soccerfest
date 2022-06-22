@@ -145,7 +145,9 @@ export default class extends State {
 
         const players = this.players.map(({ name, team, clientId, peerId }) => ({ name, team: team < 0 ? 1 : team > 0 ? 2 : 0, clientId, peerId }))
 
-        this.setState("game", { map: this.map, players, serverId: this.host, clientId: this.clientId })
+        const seed = Math.floor(Math.random() * 9999999)
+
+        this.setState("game", { map: this.map, players, serverId: this.host, clientId: this.clientId, seed })
 
         this.players.forEach(player =>
             this.sendTo(player.clientId, {
@@ -155,6 +157,7 @@ export default class extends State {
                     players: players.map(p => ({ ...p, peerId: p.clientId == this.host ? p.peerId : null })),
                     serverId: this.host,
                     clientId: player.clientId,
+                    seed,
                 },
             })
         )
