@@ -1,8 +1,8 @@
 import StateManager from "./states/StateManager.js"
 
 import PreloaderState from "./states/PreloaderState.js"
-// import GameState from "./states/GameState.js"
-import GameState from "./states/DebugGameState.js"
+import GameState from "./states/GameState.js"
+// import GameState from "./states/DebugGameState.js"
 import HomeState from "./states/HomeState.js"
 import LobbyState from "./states/LobbyState.js"
 
