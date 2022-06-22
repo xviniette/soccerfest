@@ -119,6 +119,10 @@ export default class extends State {
 
         const debugInfos = []
 
+        debugInfos.push(
+            `SCORE ${this.clients[0].world.score[1]} / ${this.clients[0].world.score[2]} ----- ${this.clients[1].world.score[1]} / ${this.clients[1].world.score[2]} `
+        )
+
         this.clients.forEach(client => {
             ctx.fillStyle = client.color
             client.world.entities.forEach(entity => {
@@ -133,6 +137,7 @@ export default class extends State {
             debugInfos.push(`TICK : ${client.netcode.tick}`)
             debugInfos.push(`PING : ${server.ping}`)
             debugInfos.push(`DTICK : ${client.netcode.tick - server.tick}`)
+            debugInfos.push(`SYNC : ${client.netcode.isSync(0.5)}`)
         })
 
         const fontSize = 20

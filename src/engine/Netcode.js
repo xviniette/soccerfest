@@ -247,7 +247,7 @@ export default class {
     isSync(delta = 0) {
         for (let i = 0; i < this.clients.length; i++) {
             for (let j = i + 1; j < this.clients.length; j++) {
-                for (let k = this.clients[i].checksums.length; k >= 0; k--) {
+                for (let k = this.clients[i].checksums.length - 1; k >= 0; k--) {
                     const value1 = this.clients[i].checksums[k]
                     const value2 = this.clients[j].checksums[k]
 

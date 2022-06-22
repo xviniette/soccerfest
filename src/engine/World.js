@@ -223,18 +223,19 @@ export default class {
     }
 
     getState() {
-        return {
+        return JSON.stringify({
             tick: this.tick,
             state: this.state,
             stateTime: this.stateTime,
             map: this.map.id,
             spawnBallTime: this.spawnBallTime,
-            score: { ...this.score },
+            score: this.score,
             entities: this.entities.map(entity => entity.getState()),
-        }
+        })
     }
 
     setState(data) {
+        data = JSON.parse(data)
         const d = { ...data }
         delete d.entities
         delete d.map
@@ -248,7 +249,7 @@ export default class {
     }
 
     getChecksum() {
-        let sum = this.tick + this.state + this.stateTime + this.map.id + this.spawnBallTime
+        let sum = this.tick
 
         this.entities.forEach(entity => {
             sum += entity.getChecksum()
