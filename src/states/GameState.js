@@ -358,6 +358,14 @@ export default class extends State {
             ctx.font = `${canvas.height * 0.2}px Arial`
             ctx.fillText(text, canvas.width * 0.5, canvas.height * 0.5)
         }
+
+        if (!this.netcode.isSync(0.5)) {
+            ctx.textAlign = "center"
+            ctx.textBaseline = "middle"
+            ctx.font = `${canvas.height * 0.2}px Arial`
+            ctx.fillStyle = "#ff0000"
+            ctx.fillText("DESYNC", canvas.width * 0.5, canvas.height * 0.5)
+        }
     }
 
     addTrauma(value) {
