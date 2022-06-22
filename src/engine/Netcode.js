@@ -10,7 +10,7 @@ export default class {
         this.tick = -1
 
         this.delay = 0
-        this.rollback = 20
+        this.rollback = 10
 
         this.savedState
         this.savedStateTick = -1
