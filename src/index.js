@@ -13,3 +13,10 @@ if (query.peer) {
 } else {
     new GameManager()
 }
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+        .register("./static/pwa/sw.js")
+        .then(reg => {})
+        .catch(error => {})
+}
